@@ -13,7 +13,7 @@ description:  Write an awesome description for your new site here. You can edit 
               Google search results) and in your feed.xml site description.
 baseurl: "https://tvitor.github.io/" # the subpath of your site, e.g. /blog
 url: "https://tvitor.github.io/" # the base hostname & protocol for your site
-twitter_username:tvitor
+twitter_username: stVITOR
 github_username:  tvitor
 
 # Build settings
