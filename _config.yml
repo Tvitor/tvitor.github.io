@@ -2,10 +2,10 @@
 
 
 title: Vitor Sales
-email: contato.vst@gmail.com
+email: https://www.linkedin.com/in/vitor-sales89
 description:  O objetivo desse blog é compartilhar com você minha história e alguns conhecimentos interessantes
 baseurl: "https://tvitor.github.io/" # the subpath of your site, e.g. /blog
-url: "https://tvitor.github.io/" # the base hostname & protocol for your site
+url: # the base hostname & protocol for your site
 twitter_username: stVITOR
 github_username:  tvitor
 
