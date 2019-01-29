@@ -5,9 +5,25 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://localhost:4000/jekyll-wing-template/</link>
     <atom:link href="http://localhost:4000/jekyll-wing-template/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Jan 2019 16:52:48 -0200</pubDate>
-    <lastBuildDate>Tue, 29 Jan 2019 16:52:48 -0200</lastBuildDate>
+    <pubDate>Tue, 29 Jan 2019 16:59:55 -0200</pubDate>
+    <lastBuildDate>Tue, 29 Jan 2019 16:59:55 -0200</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Controlando um Abajour por controle remoto</title>
+        <description>&lt;p&gt;Quando decidi seguir pelo caminho da tecnologia, ainda era bem novo. E se tinha um argumento que me deixava motivado, era poder influenciar na vida das pessoas de forma positiva, facilitando a vida. Encontrei pelo percurso, diversas maneiras disso acontecer, mas uma delas chamou bastante minha atenção, me deixando realmente feliz, até por ser algo palpável. Em 2016, criei um dispositivo que controlava a lampada remotamente através de um aplicativo. E com alguns comandos interessantes, como comando por voz, o movimento do celular ou botões digitais, foi possível tornar isso realidade. Talvez, tecnicamente  falando, posso ter feito coisas mais complexas, mas a beleza desse evento foi ter criado algo que acrescenta na acessibilidade, facilitando a vida de outras pessoas.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/onJnizn3CgM&quot;&gt;&lt;img src=&quot;https://i.imgur.com/vKb2F1B.png&quot; alt=&quot;Watch the video&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 28 Jan 2019 08:18:00 -0200</pubDate>
+        <link>http://localhost:4000/jekyll-wing-template/arduino/2019/01/28/Abajour_por_controle_remoto.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/arduino/2019/01/28/Abajour_por_controle_remoto.html</guid>
+        
+        
+        <category>arduino</category>
+        
+      </item>
     
       <item>
         <title>As etapas do desenvolvimento de software</title>
@@ -90,22 +106,6 @@ No White box, as partes internas como seus componentes são examinados detalhada
         
         
         <category>Desenvolvimento_de_software</category>
-        
-      </item>
-    
-      <item>
-        <title>Controlando um Abajour por controle remoto</title>
-        <description>&lt;p&gt;Quando decidi seguir pelo caminho da tecnologia, ainda era bem novo. E se tinha um argumento que me deixava motivado, era poder influenciar na vida das pessoas de forma positiva, facilitando a vida. Encontrei pelo percurso, diversas maneiras disso acontecer, mas uma delas chamou bastante minha atenção, me deixando realmente feliz, até por ser algo palpável. Em 2016, criei um dispositivo que controlava a lampada remotamente através de um aplicativo. E com alguns comandos interessantes, como comando por voz, o movimento do celular ou botões digitais, foi possível tornar isso realidade. Talvez, tecnicamente  falando, posso ter feito coisas mais complexas, mas a beleza desse evento foi ter criado algo que acrescenta na acessibilidade, facilitando a vida de outras pessoas.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/0UjxilUEGjE&quot;&gt;&lt;img src=&quot;https://i.imgur.com/vKb2F1B.png&quot; alt=&quot;Watch the video&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 28 Jan 2018 08:18:00 -0200</pubDate>
-        <link>http://localhost:4000/jekyll-wing-template/arduino/2018/01/28/Abajour_por_controle_remoto.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/arduino/2018/01/28/Abajour_por_controle_remoto.html</guid>
-        
-        
-        <category>arduino</category>
         
       </item>
     
