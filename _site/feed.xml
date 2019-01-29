@@ -5,147 +5,107 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://localhost:4000/jekyll-wing-template/</link>
     <atom:link href="http://localhost:4000/jekyll-wing-template/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Jan 2019 16:24:59 -0200</pubDate>
-    <lastBuildDate>Tue, 29 Jan 2019 16:24:59 -0200</lastBuildDate>
+    <pubDate>Tue, 29 Jan 2019 16:29:03 -0200</pubDate>
+    <lastBuildDate>Tue, 29 Jan 2019 16:29:03 -0200</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>As etapas do desenvolvimento de software</title>
+        <description>&lt;p&gt;Quem nunca viu essa situação? Uma solução que uma empresa inteira  utiliza, está causando problemas para os usuários. E os problemas só apareceram depois que esse software foi entregue. E pior, o software foi diretamente implementado, sem nenhuma análise prévia ou criação de documentação.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Ou esse cenário? um software confuso que não possui documentação, confunde todos que estão usando, até mesmo quem o criou. Vive mudando as regras de negócio e nunca melhora o desempenho.
+As falhas e defeitos devem ser descobertas antes do produto ser entregue.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;As etapas que envolvem o desenvolvimento de software têm justamente essa intenção. Essas etapas, ou fases, tem por objetivo garantir uma qualidade no software. Qualidade que atenda os desejos que motivaram a criação desse produto e que evitem a entrega com problemas.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;A intenção desse post é justamente falar dessas etapas, pois acredito que é um assunto que merece ser valorizado e o conhecimento compartilhado, afim de contribuir com a comunidade de TI através dos recursos das boas práticas. 
+Entender os processos de desenvolvimento de software é um passo inicial e fundamental para o amadurecimento do conhecimento relacionado a capacidade de produzir e manter um software de qualidade. Além disso, a definição padronizada de trabalho fomenta nas organizações um crescimento e um amadurecimento na forma de execução dos projetos, permitindo, inclusive, a repetição do que foi positivo.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Os Processos e as boas práticas na construção de um software é determinante para a qualidade final do produto. Esse produto, é envolvido por atividades sistematizadas, divididas em fases ou etapas. Para qualificar o entendimento, é necessário utilizar a análise de requisitos de algumas dessas etapas, garantindo a qualidade e reduzindo riscos. A descrição correta dos requisitos permitirá uma modelagem ou desenho do software, possibilitando então a implementação e posteriormente o teste.&lt;/p&gt;
+
+&lt;p&gt;É importante ressaltar, que esses processos só terão resultado, se respeitarem a necessidade do cliente e dos usuários, tendo qualidade, reduzindo custos e prazos. São fases ou etapas do processo de desenvolvimento do software e suas fases específicas:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Tvitor/Tvitor.github.io/master/assets/images/imagePosts/Tabela%201%202018-07-02%2010-48.PNG&quot; alt=&quot;tabelaEtapasComuns&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Especificação&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;O início da especificação de requisitos, onde é demostrado o que foi solicitado, tem o usuário como peça chave.&lt;/p&gt;
+
+&lt;p&gt;Primeiro, suas declarações em linguagem natural e também em diagramas, apresenta como deseja que o sistema funcione.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Tvitor/Tvitor.github.io/master/assets/images/imagePosts/dados%202018-07-02.PNG&quot; alt=&quot;Diagrama&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Em seguida, é estabelecido detalhadamente as funções e restrições. Documentado, chamado de especificação funcional. Pode ser representado como um contrato entre comprador do sistema e o desenvolvedor do software. Ao final, é feito uma descrição abstrata desse projeto sendo uma base para sua implementação, acrescentando mais detalhes aos requisitos do sistema.
+Em um segundo momento, começa a análise de requisitos, onde basicamente envolve o reconhecimento do problema e sua modelagem. Nessa análise de requisitos, definir os conceitos do projeto, do produto, e as suas características funcionais e não funcionais é determinante.&lt;/p&gt;
+
+&lt;p&gt;Destaco aqui os requisitos funcionais (as ações que deverá existir no programa) e não funcionais (características triviais)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Tvitor/Tvitor.github.io/master/assets/images/imagePosts/levantamento%20de%20requisitos%202018-07-02.PNG&quot; alt=&quot;requisitos&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A modelagem é outro momento que merece destaque, aqui compreendemos os fluxos da informação, do controle dos aspectos funcionais e do comportamento do sistema.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Tvitor/Tvitor.github.io/master/assets/images/imagePosts/dados%202018-07-02.PNG&quot; alt=&quot;dados&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ao final da análise de requisitos, encerramos com uma documentação de especificação de requisitos de software. Esse documento pode conter um manual prévio do usuário, afim de criar uma revisão dos requisitos pelo usuário ainda no estágio inicial. Isso sem dúvidas vai diminuir as chances de ocorrer um problema no futuro.&lt;/p&gt;
+
+&lt;p&gt;A especificação do software define funções e restrições de sistema através da engenharia de requisitos. É produzido uma série de documentos de requisitos.
+São eles: Estudo de viabilidade, Levantamento e análise de requisitos, especificação de requisitos, validação de requisitos. Todos eles são feitos simultaneamente.
+Futuramente em outros posts, estarei falando a respeitos dos padrões de desenvolvimento de software(PDS) e os diferentes modelos de ciclo de vida do software&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Projeto&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Desenvolver o desenho ou a arquitetura através das suas propriedades estruturais (organizando a iteração dos módulos, objetos filtros etc.) e não funcionais, que seria a descrição do projeto de arquitetura, suas capacidades, confiabilidade, segurança, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Codificação&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Agora sim, o momento da codificação. Nessa etapa utilizamos a linguagem de programação, e é necessário também a documentação dessa etapa. Conhecer as diferentes linguagens e os recursos relacionados a elas podem ser determinante no aspecto de desempenho e tempo de entrega do software.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fase de Testes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Quem garante que depois de tudo isso, o software estará 100% como o usuário gostaria? Por isso, é fundamental uma etapa precoce do uso do software, através de procedimentos de testes tendo sua última etapa uma revisão da especificação do projeto e da codificação. Dois nomes conhecidos aparecem nessa fase: O black box e White box&lt;/p&gt;
+
+&lt;p&gt;No black box foca nos requisitos funcionais através da opinião do usuário. Concentra-se nas funções que o software deve possuir. O testador utiliza as seguintes técnicas:&lt;/p&gt;
+
+&lt;p&gt;Caso de uso (ao selecionar o caso de uso a ser testado, é identificado os fluxos e observado o diagrama de atividade, em seguida, é executado as ações do ator para verificar se as respostas são esperadas), particionamento de equivalência(separar as entradas do sistema em categorias e observar os dados se serão válidos ou inválidos, onde deveria ser rejeitado) testes baseados em grafo(testa o relacionamento entre objetos ), teste de todos os pares, teste de tabela de decisão, tabelas de estado de transição e análise do valor limite. 
+No White box, as partes internas como seus componentes são examinados detalhadamente. Aqui o código é observado.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Manutenção&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A manutenção permite a correção ou alteração após a entrega do sistema. É importante no ciclo de vida do software ter ações preventivas e atividades corretivas nas falhas descobertas no código, no projeto ou nas especificações. Além disso, podem acrescentar novas funções. Todo software precisa ter mudanças continuas para não se tornar inútil com a evolução dos sistemas. Existem quatro formas de manutenção:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Tvitor/Tvitor.github.io/master/assets/images/imagePosts/Tabela%202%202018-07-02%2010-48.PNG&quot; alt=&quot;tabelaManutencao&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Documentação:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Uma documentação completa, sendo preenchida em todas as fases do processo, garante uma manutenção mais eficiente. Pois facilita o trabalho do suporte técnico permitindo um atendimento eficaz.  Ter uma documentação de uso comum e outra documentação técnica, permite ao usuário uma documentação de fácil compreensão, através de apostilas ou manuais. E aos técnicos e desenvolvedores, ter uma documentação específica, facilita o ganho de tempo para alterações ao observar fluxogramas, o código fonte, os processos e as regras de negócio.&lt;/p&gt;
+
+&lt;p&gt;Na modelagem Ágil, enfatiza-se que somente existirá a necessidade da documentação se a regra do negócio assim exigir. Nesse caso, a energia e o tempo dos participantes do projeto estará voltada para uma documentação eficiente e econômica, Diminuindo a carga de trabalho ao máximo que puder. O benefício de ter a documentação tem que ser maior do que o custo de cria-la e mantê-la.&lt;/p&gt;
+
+&lt;p&gt;Futuramente, quero me aprofundar mais nesse tema de análise e desenvolvimento de sistemas, postando alguns diagramas e apresentando o desenvolvimento de programas em diversas linguagens e a utilização de diversas metodologias e recursos. Mas não poderia fazer isso sem antes falar de um assunto base para qualquer desenvolvimento, que é o seu planejamento.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 19 Jul 2016 06:49:45 -0300</pubDate>
-        <link>http://localhost:4000/jekyll-wing-template/jekyll/update/2016/07/19/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/jekyll/update/2016/07/19/welcome-to-jekyll.html</guid>
+        <pubDate>Mon, 02 Jul 2018 07:18:00 -0300</pubDate>
+        <link>http://localhost:4000/jekyll-wing-template/desenvolvimento_de_software/2018/07/02/as-etapas-do-desenvolvimento-de-software.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/desenvolvimento_de_software/2018/07/02/as-etapas-do-desenvolvimento-de-software.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>Desenvolvimento_de_software</category>
         
       </item>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Controlando um Abajour por controle remoto</title>
+        <description>&lt;p&gt;Quando decidi seguir pelo caminho da tecnologia, ainda era bem novo. E se tinha um argumento que me deixava motivado, era poder influenciar na vida das pessoas de forma positiva, facilitando a vida. Encontrei pelo percurso, diversas maneiras disso acontecer, mas uma delas chamou bastante minha atenção, me deixando realmente feliz, até por ser algo palpável. Em 2016, criei um dispositivo que controlava a lampada remotamente através de um aplicativo. E com alguns comandos interessantes, como comando por voz, o movimento do celular ou botões digitais, foi possível tornar isso realidade. Talvez, tecnicamente  falando, posso ter feito coisas mais complexas, mas a beleza desse evento foi ter criado algo que acrescenta na acessibilidade, facilitando a vida de outras pessoas.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/0UjxilUEGjE&quot;&gt;&lt;img src=&quot;https://i.imgur.com/vKb2F1B.png&quot; alt=&quot;Watch the video&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 19 Jul 2016 06:49:45 -0300</pubDate>
-        <link>http://localhost:4000/jekyll-wing-template/jekyll/update/2016/07/19/welcome-to-jekyll-Copy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/jekyll/update/2016/07/19/welcome-to-jekyll-Copy.html</guid>
+        <pubDate>Sun, 28 Jan 2018 08:18:00 -0200</pubDate>
+        <link>http://localhost:4000/jekyll-wing-template/arduino/2018/01/28/Abajour_por_controle_remoto.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/arduino/2018/01/28/Abajour_por_controle_remoto.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 19 Jul 2016 06:49:45 -0300</pubDate>
-        <link>http://localhost:4000/jekyll-wing-template/jekyll/update/2016/07/19/welcome-to-jekyll-Copy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/jekyll/update/2016/07/19/welcome-to-jekyll-Copy.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 19 Jul 2016 06:49:45 -0300</pubDate>
-        <link>http://localhost:4000/jekyll-wing-template/jekyll/update/2016/07/19/welcome-to-jekyll-Copy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/jekyll/update/2016/07/19/welcome-to-jekyll-Copy.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 19 Jul 2016 06:49:45 -0300</pubDate>
-        <link>http://localhost:4000/jekyll-wing-template/jekyll/update/2016/07/19/welcome-to-jekyll-Copy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/jekyll/update/2016/07/19/welcome-to-jekyll-Copy.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>arduino</category>
         
       </item>
     
