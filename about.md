@@ -3,7 +3,7 @@ layout: page
 title: 
 permalink: /about/
 ---
-									         RESUMO
+RESUMO
 
 Formação acadêmica iniciada no curso de Sistemas de informação
 e Formado em Análise e Desenvolvimento de Sistemas pela Universidade Estácio de Sá.
@@ -19,12 +19,12 @@ prestados pela empresa onde passei e no acompanhamento de
 desempenho dos colaboradores através do desenvolvimento de
 relatórios automatizados.
 
-								 	     CONHECIMENTOS 
+CONHECIMENTOS 
              
 HTML, CSS, Javascript, SQL Server, Mysql, Postgree, 
 Mongodb, Firebase, Modelagem de Dados, UML, C, C++, Bootsrap,
 
-									EXPERIÊNCIA PROFISSIONAL
+EXPERIÊNCIA PROFISSIONAL
 
 Casa & Video
 Estágio
@@ -57,7 +57,7 @@ junho de 2012 - dezembro de 2012 (7 meses)
 Rio de Janeiro e Região, Brasil
 Atendimento de Chamados Field Services. Implementação do sistema Arcgis.
 
-	        							EXPERIÊNCIA COMPLEMENTAR
+EXPERIÊNCIA COMPLEMENTAR
 
 Curso Softblue SQL. 
 
@@ -67,7 +67,7 @@ Curso Prototipação eletrônica e Arduino - IFRJ
 Criação de um dispositivo de iluminação controlado porsensores 							Desenvolvido em
 Linguagem C/ C++
 
-		        						   FORMAÇÃO ACADÊMICA  
+FORMAÇÃO ACADÊMICA  
 
 Estácio: 
 Tecnólogo, Análise e Desenvolvimento de Sistemas · (2016 - 2018)
@@ -76,7 +76,7 @@ UniLaSalle:
 Bacharelado, Sistemas de informação · (2011 - 2015)
 
 
-				  					        IDIOMAS
+IDIOMAS
 
 													
 Português e Inglês 
