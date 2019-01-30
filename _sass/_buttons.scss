@@ -4,7 +4,7 @@
 
 .btn, button, [type=submit] {
   overflow: hidden;
-  margin: 30px;
+  margin: 10px;
   padding: 12px 12px;
   cursor: pointer;
   -webkit-user-select: none;
@@ -18,8 +18,10 @@
   text-decoration: none !important;
   text-transform: none;
   text-transform: uppercase;
-  border: 0 none;
+  border: 1px solid black;
   border-radius: 4px;
+width calc(50% -2px);
+height:50px;
   color: #FFFFFF;
   background:  #d7aa05;
   font-family: inherit;
@@ -33,7 +35,7 @@
 
 .btn3, button, [type=submit] {
   overflow: hidden;
-  margin: 30px;
+  margin: 10px;
   padding: 12px 12px;
   cursor: pointer;
   -webkit-user-select: none;
