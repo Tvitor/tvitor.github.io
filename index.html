@@ -4,9 +4,13 @@ layout: default
 
 <div class="home">
  <div class="top card">
-    <a class="email" href="mailto:{{site.email}}">{{site.email}}</a>
+    <!-- <a class="email" href="mailto:{{site.email}}">{{site.email}}</a> -->
     <p class="description">{{ site.description }}</p>
-    <a href="about" class="btn">Sobre mim</a>
+	<a href="about" class="btn">Curriculum Vitae</a>
+	<a href="https://www.linkedin.com/in/vitor-sales89/" class="btn3">Linkedin</a>
+	<a href="https://resume.github.io/?tvitor" class="btn">Mais informações</a>    
+	
+	
   </div>
   <div class="posts card">
       <div class="card-content white-text">
@@ -21,7 +25,7 @@ layout: default
         {% endfor %}
       </ul>
 
-      <p class="rss-subscribe">Assine<a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <p class="rss-subscribe">Assine <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
       </div>
    </div>
 

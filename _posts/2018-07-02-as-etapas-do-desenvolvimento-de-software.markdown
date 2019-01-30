@@ -4,12 +4,12 @@ title:  "As etapas do desenvolvimento de software"
 date:   2018-07-02 10:18:00
 categories: Desenvolvimento_de_software
 ---
-Quem nunca viu essa situação? Uma solução que uma empresa inteira  utiliza, está causando problemas para os usuários. E os problemas só apareceram depois que esse software foi entregue. E pior, o software foi diretamente implementado, sem nenhuma análise prévia ou criação de documentação.
+Quem nunca viu essa situação? Uma solução que uma empresa inteira  utiliza, está causando problemas para os usuários. E os problemas só apareceram depois que esse software foi entregue. E pior, o software foi diretamente implementado, sem nenhuma análise prévia ou criação de documentação. 
 
-Ou esse cenário? um software confuso que não possui documentação, confunde todos que estão usando, até mesmo quem o criou. Vive mudando as regras de negócio e nunca melhora o desempenho.
+E esse cenário? um software confuso que não possui documentação, confunde todos que estão usando, até mesmo quem o criou. Vive mudando as regras de negócio e nunca melhora o desempenho.
 As falhas e defeitos devem ser descobertas antes do produto ser entregue. 
 
-As etapas que envolvem o desenvolvimento de software têm justamente essa intenção. Essas etapas, ou fases, tem por objetivo garantir uma qualidade no software. Qualidade que atenda os desejos que motivaram a criação desse produto e que evitem a entrega com problemas.
+As etapas que envolvem o desenvolvimento de software têm justamente essa intenção. Essas etapas, ou fases, tem por objetivo garantir uma qualidade no software. Qualidade que atenda os desejos que motivaram a criação desse produto e que evitem a entrega com problemas. 
 
 A intenção desse post é justamente falar dessas etapas, pois acredito que é um assunto que merece ser valorizado e o conhecimento compartilhado, afim de contribuir com a comunidade de TI através dos recursos das boas práticas. 
 Entender os processos de desenvolvimento de software é um passo inicial e fundamental para o amadurecimento do conhecimento relacionado a capacidade de produzir e manter um software de qualidade. Além disso, a definição padronizada de trabalho fomenta nas organizações um crescimento e um amadurecimento na forma de execução dos projetos, permitindo, inclusive, a repetição do que foi positivo.
