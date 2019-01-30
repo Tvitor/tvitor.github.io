@@ -3,10 +3,10 @@
   <channel>
     <title>Vitor Sales</title>
     <description></description>
-    <link>http://localhost:4000/jekyll-wing-template/</link>
-    <atom:link href="http://localhost:4000/jekyll-wing-template/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Jan 2019 02:22:42 -0200</pubDate>
-    <lastBuildDate>Wed, 30 Jan 2019 02:22:42 -0200</lastBuildDate>
+    <link>http://localhost:4000https://tvitor.github.io//</link>
+    <atom:link href="http://localhost:4000https://tvitor.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 30 Jan 2019 02:34:18 -0200</pubDate>
+    <lastBuildDate>Wed, 30 Jan 2019 02:34:18 -0200</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -17,8 +17,8 @@
 
 </description>
         <pubDate>Mon, 28 Jan 2019 08:18:00 -0200</pubDate>
-        <link>http://localhost:4000/jekyll-wing-template/arduino/2019/01/28/Abajour_por_controle_remoto.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/arduino/2019/01/28/Abajour_por_controle_remoto.html</guid>
+        <link>http://localhost:4000https://tvitor.github.io//arduino/2019/01/28/Abajour_por_controle_remoto.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://tvitor.github.io//arduino/2019/01/28/Abajour_por_controle_remoto.html</guid>
         
         
         <category>arduino</category>
@@ -101,8 +101,8 @@ No White box, as partes internas como seus componentes são examinados detalhada
 
 </description>
         <pubDate>Mon, 02 Jul 2018 07:18:00 -0300</pubDate>
-        <link>http://localhost:4000/jekyll-wing-template/desenvolvimento_de_software/2018/07/02/as-etapas-do-desenvolvimento-de-software.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/desenvolvimento_de_software/2018/07/02/as-etapas-do-desenvolvimento-de-software.html</guid>
+        <link>http://localhost:4000https://tvitor.github.io//desenvolvimento_de_software/2018/07/02/as-etapas-do-desenvolvimento-de-software.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://tvitor.github.io//desenvolvimento_de_software/2018/07/02/as-etapas-do-desenvolvimento-de-software.html</guid>
         
         
         <category>Desenvolvimento_de_software</category>
