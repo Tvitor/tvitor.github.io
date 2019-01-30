@@ -69,7 +69,7 @@ No White box, as partes internas como seus componentes são examinados detalhada
 
 A manutenção permite a correção ou alteração após a entrega do sistema. É importante no ciclo de vida do software ter ações preventivas e atividades corretivas nas falhas descobertas no código, no projeto ou nas especificações. Além disso, podem acrescentar novas funções. Todo software precisa ter mudanças continuas para não se tornar inútil com a evolução dos sistemas. Existem quatro formas de manutenção:
 
-![tabelaManutencao]((https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/Tabela%202%202018-07-02%2010-48.PNG)
+![tabelaManutencao](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/Tabela%202%202018-07-02%2010-48.PNG)
 
 **Documentação:** 
 
