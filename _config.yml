@@ -9,7 +9,7 @@
 title: Vitor Sales
 email: 
 description: 
-baseurl: "/jekyll-wing-template" # the subpath of your site, e.g. /blog
+baseurl: "https://tvitor.github.io/" # "/jekyll-wing-template" the subpath of your site, e.g. /blog
 url: "https://tvitor.github.io/" # the base hostname & protocol for your site
 twitter_username: stvitor
 github_username:  tvitor
