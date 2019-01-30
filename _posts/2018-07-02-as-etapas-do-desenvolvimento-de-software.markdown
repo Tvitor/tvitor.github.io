@@ -19,7 +19,7 @@ Os Processos e as boas práticas na construção de um software é determinante 
 É importante ressaltar, que esses processos só terão resultado, se respeitarem a necessidade do cliente e dos usuários, tendo qualidade, reduzindo custos e prazos. São fases ou etapas do processo de desenvolvimento do software e suas fases específicas:
 
 
-![tabelaEtapasComuns](https://raw.githubusercontent.com/Tvitor/Tvitor.github.io/master/assets/images/imagePosts/Tabela%201%202018-07-02%2010-48.PNG)
+![tabelaEtapasComuns](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/Tabela%201%202018-07-02%2010-48.PNG)
 
 **Especificação**
 
@@ -27,18 +27,18 @@ O início da especificação de requisitos, onde é demostrado o que foi solicit
 
 Primeiro, suas declarações em linguagem natural e também em diagramas, apresenta como deseja que o sistema funcione.
 
-![Diagrama](https://raw.githubusercontent.com/Tvitor/Tvitor.github.io/master/assets/images/imagePosts/dados%202018-07-02.PNG)
+![Diagrama](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/dados%202018-07-02.PNG)
 
  Em seguida, é estabelecido detalhadamente as funções e restrições. Documentado, chamado de especificação funcional. Pode ser representado como um contrato entre comprador do sistema e o desenvolvedor do software. Ao final, é feito uma descrição abstrata desse projeto sendo uma base para sua implementação, acrescentando mais detalhes aos requisitos do sistema.
 Em um segundo momento, começa a análise de requisitos, onde basicamente envolve o reconhecimento do problema e sua modelagem. Nessa análise de requisitos, definir os conceitos do projeto, do produto, e as suas características funcionais e não funcionais é determinante.
 
 Destaco aqui os requisitos funcionais (as ações que deverá existir no programa) e não funcionais (características triviais)
 
-![requisitos](https://raw.githubusercontent.com/Tvitor/Tvitor.github.io/master/assets/images/imagePosts/levantamento%20de%20requisitos%202018-07-02.PNG)
+![requisitos](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/levantamento%20de%20requisitos%202018-07-02.PNG)
 
 A modelagem é outro momento que merece destaque, aqui compreendemos os fluxos da informação, do controle dos aspectos funcionais e do comportamento do sistema.
 
-![dados](https://raw.githubusercontent.com/Tvitor/Tvitor.github.io/master/assets/images/imagePosts/dados%202018-07-02.PNG)
+![dados](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/dados%202018-07-02.PNG)
 
 Ao final da análise de requisitos, encerramos com uma documentação de especificação de requisitos de software. Esse documento pode conter um manual prévio do usuário, afim de criar uma revisão dos requisitos pelo usuário ainda no estágio inicial. Isso sem dúvidas vai diminuir as chances de ocorrer um problema no futuro.
 
@@ -69,7 +69,7 @@ No White box, as partes internas como seus componentes são examinados detalhada
 
 A manutenção permite a correção ou alteração após a entrega do sistema. É importante no ciclo de vida do software ter ações preventivas e atividades corretivas nas falhas descobertas no código, no projeto ou nas especificações. Além disso, podem acrescentar novas funções. Todo software precisa ter mudanças continuas para não se tornar inútil com a evolução dos sistemas. Existem quatro formas de manutenção:
 
-![tabelaManutencao](https://raw.githubusercontent.com/Tvitor/Tvitor.github.io/master/assets/images/imagePosts/Tabela%202%202018-07-02%2010-48.PNG)
+![tabelaManutencao](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/Tabela%202%202018-07-02%2010-48.PNG)
 
 **Documentação:** 
 
