@@ -82,9 +82,11 @@ table-responsive{
 }
 
 .table {
-    border: 1px solid red;
+    border: none;
     width: 50% !important; /*Importante manter o !important rs */
     margin: auto;
+position: absolute; 
+	left: 90px; /* posiciona a 90px para a esquerda */ 
 }
 
 .table-status {
