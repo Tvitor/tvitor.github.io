@@ -18,8 +18,8 @@ o título, o banner e o título das aulas.
 HTML.
 
 Foi adotado o uso do JQuery para desenvolver o acesso e manipulação da API.
-O código desenvolvido  está nesse repositório: https://github.com/Tvitor/DesafioCefis
-    - E hospedado nesse endereço: https://tvitor.github.io/DesafioCefis/
+O código desenvolvido  está nesse repositório: https://github.com/Tvitor/DesafioCursos
+    - E hospedado nesse endereço: https://tvitor.github.io/DesafioCursos/
     
 
 
