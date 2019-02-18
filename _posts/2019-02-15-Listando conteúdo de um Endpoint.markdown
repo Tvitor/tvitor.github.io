@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Listando conteúdo de um Endpoint"
+date:   2019-02-15 10:18:00
+categories: Desenvolvimento Front end
+---
+
+
+
 Hoje vou compartilhar com você mais uma criação para fins acadêmicos. Nesse projeto, foi realizado um desafio que consistiu na implantação de um site onde é listado o conteudo (cursos) utilizando um endpoint de uma API já implantada. E uma página de exibição do conteúdo do curso selecionado.
 
 Os seguintes critérios foram adotados:
