@@ -8,75 +8,15 @@ RESUMO <br><br>
 <p>Formação acadêmica iniciada no curso de Sistemas de informação
 e Formado em Análise e Desenvolvimento de Sistemas pela Universidade Estácio de Sá.</p>
 
-Experiência profissional em Análise de sistemas, na geração de gráficos
-de desempenho, alimentado pelo Banco de Dados, além de criação de auditorias das Queries
-criadas por outros setores, sempre por tratamento de chamados.
-
-Através da formação profissional como estagiário, junto com
-minha formação acadêmica, acumulei experiências importantes
-e conclui projetos que acrescentaram na qualidade dos serviços
-prestados pela empresa onde passei e no acompanhamento de
-desempenho dos colaboradores através do desenvolvimento de
-relatórios automatizados.<br><br>
-
 CONHECIMENTOS <br><br>
              
-HTML, CSS, Javascript, SQL Server, Mysql, Postgree, 
-Mongodb, Firebase, Modelagem de Dados, UML, C, C++, Bootsrap,<br><br>
+Javascript, Nodejs, Adonisjs, PHP, PHP Slim, Laravel, Angular 2+, HTML, CSS, SASS, Bootstrap, Angular Material, Materialize, Express Js, SQL Server, Mysql, Postgree, Mongodb, Firebase, GIT, ORM, microserviços, AWS.<br><br>
 
 EXPERIÊNCIA PROFISSIONAL<br><br>
 
-Casa & Video<br>
-Estágio<br><br>
-
-junho de 2016 - julho de 2017 (1 ano 2 meses) <br><br>
-
-1° Parte como Service Desk (Empresa Varejista de médio porte)
-Tratamento de chamados internos e externos remotamente
-Controle de Acesso ao SAP
-Suporte a PDV e impressoras das lojas pelo sistema UNIX<br><br>
-
-2° Parte como Analista de Banco de Dados (Empresa Varejista de médio
-porte)<br>
-Criação de queries no SQL Server
-Criação de gráficos de desempenho sincronizando o BD com o Excel
-Auditoria das queries criadas por outros setores da empresa
-<br><br>
-Pesagro-Rio<br>
-Estágio<br><br>
-
-junho de 2013 - dezembro de 2013 (7 meses)
-Rio de Janeiro e Região, Brasil
-Atendimento de Chamados na área de Field Services. Manutenção do site<br><br>
-
-Pesagro-RJ
-SEDRAP e FIPERJ -RJ<br>
-Estágio<br><br>
-
-junho de 2012 - dezembro de 2012 (7 meses)
-Rio de Janeiro e Região, Brasil
-Atendimento de Chamados Field Services. Implementação do sistema Arcgis.<br><br>
-
-EXPERIÊNCIA COMPLEMENTAR<br><br>
-
-Curso Softblue SQL. 
-
-Curso Fund. Bradesco SQL.
-
-Curso Prototipação eletrônica e Arduino - IFRJ
-Criação de um dispositivo de iluminação controlado porsensores 							Desenvolvido em
-Linguagem C/ C++<br><br>
-
-FORMAÇÃO ACADÊMICA  <br><br>
-
-Estácio: <br>
-Tecnólogo, Análise e Desenvolvimento de Sistemas · (2016 - 2018)<br>
-
-UniLaSalle: <br>
-Bacharelado, Sistemas de informação · (2011 - 2015)<br><br>
+● Fullstack Addtech (Alocado na BrasilCap - BB )- Outubro 2019 - atual - Sistema de verificação de pessoas politicamente expostas(Nodejs, Angular 4,MYSQL) - Sistema de monitoramento de Vendas (Nodejs, Mysql) - Melhorias em serviços de processamento de vendas(Java Spring boot) - Investigação de incidentes em logs e correções de bugs (AWS, Nodejs) - Novas funcionalidades nos sistemas internos(Nodedjs, Angular 4) ● Fullstack Feng Brasil – Mar 2019 - outubro - 2019 - Desenvolvimento de sistemas da área esportiva e de fidelização de sócio-torcedor - Sistemas web com relatórios contábeis online ou gerado em PDF, (PHP, Angular 7) - Sistema para Transferência de Títulos entre Sócios (PHP, Angular 7, MYSQL) - Refatoração e novas funcionalidades das páginas admin (PHP, Angular 7 ) - Sistema de verificação e aprovação de novos sócios (PHP, Angular 7, MYSQL) - Landing page e Fale conosco de novo site (Nodejs, Angular 7) - Landing page - site de gerenciamento de multas (Angular 7) ● Estágio: Casa & Video - Jun 2016 - Mai 2017 -1° Parte como Service Desk Tratamentos de chamados internos e externos remotamente -2° Parte Estágio DBA Criação de queries no SQL Server Criação de gráficos de desempenho em VBA consultando a base Auditoria de Queries ● Estágio: Pesagro-Rio - Jun 2013 - Dez 2013 - Atendimento Field Services e manutenção do site<br><br>
 
 
 IDIOMAS<br><br>
-
 													
 Português e Inglês 
