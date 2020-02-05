@@ -3,7 +3,7 @@ layout: page
 title: 
 permalink: /about/
 ---
-<p>RESUMO <br /><br /></p>
+<p><b>RESUMO</b> <br /><br /></p>
 
 <p>Tenho conhecimento em diferentes campos da Tecnologia. 
   Mas, minha paixão e meu foco estão no desenvolvimento de Sistemas, 
@@ -38,14 +38,14 @@ GIT e FLOW, ORM, microserviços, AWS.<p><br>
    2° Parte Estágio DBA Criação de queries no SQL Server Criação de
         gráficos de desempenho em VBA consultando a base Auditoria de Queries<br>
   <p>Estágio: Pesagro-Rio - Jun 2013 - Dez 2013 </p>
-    Atendimento Field Services e manutenção do site<br>
+    Atendimento Field Services e manutenção do site<br><br/>
     <p><b>Projetos</b> <br /><br /></p>
     Dispositivo de iluminação Desenvolvido em Linguagem IOT - C/ C++ - IFRJ <br>
     CV-virtual 2.0 -https://angular-cv-virtual.firebaseapp.com/  <br>
     Api Cursos - https://github.com/Tvitor/desafiocursos <br>
     Sistema de Login e Cadastro https://github.com/Tvitor/sistemadelogin <br>
     CV Github Pages - https://tvitor.github.io <br>
-    site hall of heroes - https://github.com/Tvitor/Angular-Knights-Challenge <br>
+    site hall of heroes - https://github.com/Tvitor/Angular-Knights-Challenge <br><br/>
     <p><b>Formação Acadêmica</b> <br /><br /></p>
     Tecnólogo em Análise e Desenvolvimento de Sistemas – Estácio - Fev 2016/ jul 2018 - Concluído <br>
     Bacharelado em Sistemas de Informação - UniLaSalle - fev 2011/ dez 2015 - Trancado <br>
