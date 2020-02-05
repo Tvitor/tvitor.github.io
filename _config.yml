@@ -8,7 +8,7 @@
 # Site settings
 title: Vitor Sales
 email: 
-description:  Formado em Análise e Desenvolvimento de sistemas. Atualmente investindo o tempo no estudo e na prática do desenvolvimento Front-end. A idéia desse blog é compartilhar informações sobre mim além de conhecimentos na área da Tecnologia da informação.
+description:  Formado em Análise e Desenvolvimento de sistemas. Apaixonado por desenvolvimento Web, trabalhando na criação do sistema tanto no Front quanto no Backend. A idéia desse blog é compartilhar informações sobre mim.
 baseurl: "https://tvitor.github.io/" # "/jekyll-wing-template" the subpath of your site, e.g. /blog
 url: "https://tvitor.github.io/" # the base hostname & protocol for your site
 twitter_username: stvitor
