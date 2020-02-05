@@ -11,12 +11,12 @@ permalink: /about/
   padrões de arquitetura. Também tive experiências em outras áreas, como atendimento de 
   chamados de Infraestrutura de redes e ServiceDesk. Nessa caminhada pela tecnologia, busco 
   entregar qualidade nas minhas realizações. Tenho prazer em poder conhecer diferentes campos e 
-  compreender como cada ramificação funciona.</p>
-  <p>Conhecimentos <br /><br /></p>
+  compreender como cada ramificação funciona.</p><br>
+  <p><b>Conhecimentos</b> <br /><br /></p>
 <p>Javascript, Nodejs, Adonisjs, PHP, PHP Slim, Laravel, Angular 2+, HTML, CSS, SASS, Bootstrap, 
 Angular Material, Materialize, Express Js, SQL Server, Mysql, Postgree, Mongodb, Firebase, Dynamo,
-GIT e FLOW, ORM, microserviços, AWS.<p>
-  <p>Experiência Profissional <br /><br /></p>
+GIT e FLOW, ORM, microserviços, AWS.<p><br>
+  <p><b>Experiência Profissional</b> <br /><br /></p>
 <p>Fullstack Addtech (Alocado na BrasilCap - BB )- Outubro 2019 - atual </p>
   Sistema de verificação de pessoas politicamente expostas(Nodejs, Angular 4,MYSQL) <br>
   Sistema de monitoramento de Vendas (Nodejs, Mysql) - Melhorias em serviços de processamento 
@@ -39,14 +39,14 @@ GIT e FLOW, ORM, microserviços, AWS.<p>
         gráficos de desempenho em VBA consultando a base Auditoria de Queries<br>
   <p>Estágio: Pesagro-Rio - Jun 2013 - Dez 2013 </p>
     Atendimento Field Services e manutenção do site<br>
-    <p>Projetos <br /><br /></p>
+    <p><b>Projetos</b> <br /><br /></p>
     Dispositivo de iluminação Desenvolvido em Linguagem IOT - C/ C++ - IFRJ <br>
     CV-virtual 2.0 -https://angular-cv-virtual.firebaseapp.com/  <br>
     Api Cursos - https://github.com/Tvitor/desafiocursos <br>
     Sistema de Login e Cadastro https://github.com/Tvitor/sistemadelogin <br>
     CV Github Pages - https://tvitor.github.io <br>
     site hall of heroes - https://github.com/Tvitor/Angular-Knights-Challenge <br>
-    <p>Formação Acadêmica <br /><br /></p>
+    <p><b>Formação Acadêmica</b> <br /><br /></p>
     Tecnólogo em Análise e Desenvolvimento de Sistemas – Estácio - Fev 2016/ jul 2018 - Concluído <br>
     Bacharelado em Sistemas de Informação - UniLaSalle - fev 2011/ dez 2015 - Trancado <br>
 
