@@ -8,11 +8,9 @@
 # Site settings
 title: Vitor Sales
 email: 
-description:  Formado em Análise e Desenvolvimento de sistemas. Apaixonado por desenvolvimento Web, trabalhando na criação de sistemas do Front ao Backend. Atualmente com experiências em angular 2+ , php e Nodejs. Porém, interessado e disposto a aprender novas tecnologias.
+description:  Tenho conhecimento em diferentes campos da Tecnologia. Mas, minha paixão e meu foco estão no desenvolvimento de Sistemas, do Front ao Back-End. Utilizei Frameworks do JavaScript e do PHP. Sempre atendendo a padrões de arquitetura. Também tive experiências em outras áreas, como atendimento de chamados de Infraestrutura de redes e ServiceDesk. Nessa caminhada pela tecnologia, busco entregar qualidade nas minhas realizações. Tenho prazer em poder conhecer diferentes campos e compreender como cada ramificação funciona.
 baseurl: "https://tvitor.github.io/" # "/jekyll-wing-template" the subpath of your site, e.g. /blog
 url: "https://tvitor.github.io/" # the base hostname & protocol for your site
-twitter_username: stvitor
 github_username:  tvitor
-
 # Build settings
 markdown: kramdown
