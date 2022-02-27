@@ -6,17 +6,22 @@ permalink: /about/
 <p><b>RESUMO</b> <br /><br /></p>
 
 <p>Tenho conhecimento em diferentes campos da Tecnologia. 
-  Mas, minha paixão e meu foco estão no desenvolvimento de Sistemas, 
-  do Front ao Back-End. Utilizei Frameworks do JavaScript e do PHP. Sempre atendendo a 
-  padrões de arquitetura. Também tive experiências em outras áreas, como atendimento de 
-  chamados de Infraestrutura de redes e ServiceDesk. Nessa caminhada pela tecnologia, busco 
-  entregar qualidade nas minhas realizações. Tenho prazer em poder conhecer diferentes campos e 
-  compreender como cada ramificação funciona.</p><br>
+  Mas, minha paixão e meu foco estão no desenvolvimento de Sistemas web, 
+  do Front ao Back-End. Utilizei Frameworks do JavaScript e do PHP. Como Adonisjs, Slimphp, Node express, nest.js; Sempre com a metodologia ágil.
+  Também tive experiências em outras áreas, como atendimento de chamados de Infraestrutura de redes e ServiceDesk. Nessa caminhada pela tecnologia, busco 
+  entregar qualidade nas minhas realizações e tenho prazer de poder conhecer diferentes campos, compreendendo como cada ramificação funciona.</p><br>
   <p><b>Conhecimentos</b> <br /><br /></p>
-<p>Javascript, Nodejs, Adonisjs, PHP, PHP Slim, Laravel, Angular 2+, HTML, CSS, SASS, Bootstrap, 
-Angular Material, Materialize, Express Js, SQL Server, Mysql, Postgree, Mongodb, Firebase, Dynamo,
-GIT e FLOW, ORM, microserviços, AWS.<p><br>
+<p>Javascript, Typescript, Nodejs, Nestjs, Adonisjs,PHP Slim,
+Angular, HTML, CSS, Bootstrap, Angular Material, Materialize,
+Express Js, SQL Server, Mysql, Postgree, Mongodb, Firebase, GIT, ORM, Docker, Ágil.<p><br>
   <p><b>Experiência Profissional</b> <br /><br /></p>
+  <p>Rede D’or – Março 2020 – atual</p>
+- Histórico de laudos anteriores do paciente (nest.js/Angular)
+- Painel/Monitoramento de Fila dos antedimentos seguinto protocolo SADT(Nest.js/Angular5)
+- Relatório de atendimentos para CSV (Nest.js/Angular5)
+- Retorno de exames entre diferentes ambientes com mensageiro em tempo real(Nest.js/Angular5)
+- Ambiente em container (docker)
+- correção de bugs, Sustentação suporte N3
 <p>Fullstack Addtech (Alocado na BrasilCap - BB )- Outubro 2019 - atual </p>
   Sistema de verificação de pessoas politicamente expostas(Nodejs, Angular 4,MYSQL) <br>
   Sistema de monitoramento de Vendas (Nodejs, Mysql) - Melhorias em serviços de processamento 
@@ -39,14 +44,5 @@ GIT e FLOW, ORM, microserviços, AWS.<p><br>
         gráficos de desempenho em VBA consultando a base Auditoria de Queries<br>
   <p>Estágio: Pesagro-Rio - Jun 2013 - Dez 2013 </p>
     Atendimento Field Services e manutenção do site<br><br/>
-    <p><b>Projetos</b> <br /><br /></p>
-    Dispositivo de iluminação Desenvolvido em Linguagem IOT - C/ C++ - IFRJ <br>
-    CV-virtual 2.0 -https://angular-cv-virtual.firebaseapp.com/  <br>
-    Api Cursos - https://github.com/Tvitor/desafiocursos <br>
-    Sistema de Login e Cadastro https://github.com/Tvitor/sistemadelogin <br>
-    CV Github Pages - https://tvitor.github.io <br>
-    site hall of heroes - https://github.com/Tvitor/Angular-Knights-Challenge <br><br/>
-    <p><b>Formação Acadêmica</b> <br /><br /></p>
-    Tecnólogo em Análise e Desenvolvimento de Sistemas – Estácio - Fev 2016/ jul 2018 - Concluído <br>
-    Bacharelado em Sistemas de Informação - UniLaSalle - fev 2011/ dez 2015 - Trancado <br>
+    
 
