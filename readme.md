@@ -44,7 +44,7 @@ O objetivo é compartilhar conhecimento sobre:
 
 ### **Versionamento**
 - **Git/GitHub** - Controle de versão e "CMS" para conteúdo
-- **GitHub Actions** - CI/CD automático (build + deploy)
+- **GitHub Actions** - CI/CD automático (build + deploy) https://github.com/tvitor/tvitor.github.io/actions
 
 ---
 
