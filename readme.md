@@ -14,7 +14,7 @@
 
 ## 📚 Sobre o Projeto
 
-Este repositório contém meu **portfolio profissional** e **blog técnico**, desenvolvido como um site estático usando **Jekyll** e hospedado gratuitamente no **GitHub Pages**.
+Este repositório contém meu **portfolio profissional** e **blog técnico**, desenvolvido como um site estático usando **Jekyll** e hospedado gratuitamente no **GitHub Pages**..
 
 O objetivo é compartilhar conhecimento sobre:
 - 🏥 **HealthTech:** Desenvolvimento de sistemas RIS/PACS/HIS
