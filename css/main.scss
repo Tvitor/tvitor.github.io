@@ -1,6 +1,7 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
 @charset "utf-8";
-
-
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -36,7 +37,7 @@ $element-bottom-margin: ($spacing-unit*2)/3 !default;
 
 $anim-speed: 0.3s;
 
-// ✅ ADICIONAR antes dos imports:
+// ✅ Variáveis dos botões personalizados
 $btn-primary: #d7aa05;      // Amarelo (Curriculum)
 $btn-linkedin: #0077B5;     // Azul oficial LinkedIn
 $btn-github: #24292e;       // Cinza escuro GitHub
@@ -49,10 +50,11 @@ $btn-stats: #6e5494;        // Roxo para stats
   -webkit-justify-content: center;
 }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// ✅ Import z-depth ANTES de cards (ordem importa!)
 @import
+        "depth",       // ← NOVO: Define .z-depth-* primeiro
         "base",
-        "cards",
+        "cards",       // ← Agora pode usar @extend .z-depth-1
         "buttons",
         "forms",
         "grid",
