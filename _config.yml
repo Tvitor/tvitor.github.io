@@ -7,10 +7,24 @@
 
 # Site settings
 title: Vitor Sales
-email: 
-description:  Tenho conhecimento em diferentes campos da Tecnologia. Mas, minha paixão e meu foco estão no desenvolvimento de Sistemas, do Front ao Back-End. Utilizei Frameworks do JavaScript e do PHP. Sempre atendendo a padrões de arquitetura. Também tive experiências em outras áreas, como atendimento de chamados de Infraestrutura de redes e ServiceDesk. Nessa caminhada pela tecnologia, busco entregar qualidade nas minhas realizações. Tenho prazer em poder conhecer diferentes campos e compreender como cada ramificação funciona.
-baseurl: "https://tvitor.github.io/" # "/jekyll-wing-template" the subpath of your site, e.g. /blog
-url: "https://tvitor.github.io/" # the base hostname & protocol for your site
-github_username:  tvitor
+email: acessovst@icloud.com
+description: "Engenheiro de Software sênior especializado em HealthTech e RIS"
+baseurl: ""
+url: "https://tvitor.github.io"
+
 # Build settings
 markdown: kramdown
+
+# Sass/SCSS configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
