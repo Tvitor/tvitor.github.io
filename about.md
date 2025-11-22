@@ -10,7 +10,7 @@ permalink: /about/
 📍 Niterói, Rio de Janeiro  
 📞 (21) 98125-5132  
 📧 acessovst@icloud.com  
-🔗 [LinkedIn](https://linkedin.com/in/vitorsales) | [GitHub](https://github.com/tvitor)
+🔗 [LinkedIn](https://linkedin.com/in/vitor-sales89) | [GitHub](https://github.com/tvitor)
 
 ---
 
