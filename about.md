@@ -1,51 +1,93 @@
 ---
 layout: page
-title: 
+title: Curriculum Vitae
 permalink: /about/
 ---
-<p><b>RESUMO</b> <br /><br /></p>
 
-<p>Tenho conhecimento em diferentes campos da Tecnologia. 
-  Mas, minha paixão e meu foco estão no desenvolvimento de Sistemas web, 
-  do Front ao Back-End. Utilizei Frameworks do JavaScript e do PHP. Como Adonisjs, Slimphp, Node express, nest.js; Sempre com a metodologia ágil.
-  Também tive experiências em outras áreas, como atendimento de chamados de Infraestrutura de redes e ServiceDesk. Nessa caminhada pela tecnologia, busco 
-  entregar qualidade nas minhas realizações e tenho prazer de poder conhecer diferentes campos, compreendendo como cada ramificação funciona.</p><br>
-  <p><b>Conhecimentos</b> <br /><br /></p>
-<p>Javascript, Typescript, Nodejs, Nestjs, Adonisjs,PHP Slim,
-Angular, HTML, CSS, Bootstrap, Angular Material, Materialize,
-Express Js, SQL Server, Mysql, Postgree, Mongodb, Firebase, GIT, ORM, Docker, Ágil.<p><br>
-  <p><b>Experiência Profissional</b><br/><br/></p>
-  <p><b>Rede D’or – Março 2020 – atual</b></p>
-- Histórico de laudos anteriores do paciente (nest.js/Angular)
-- Painel/Monitoramento de Fila dos antedimentos seguinto protocolo SADT(Nest.js/Angular5)
-- Relatório de atendimentos para CSV (Nest.js/Angular5)
-- Retorno de exames entre diferentes ambientes com mensageiro em tempo real(Nest.js/Angular5)
-- Ambiente em container (docker)
-- correção de bugs, Sustentação suporte N3
-- <br/><br/>
-<p><b>Fullstack Addtech (Alocado na BrasilCap - BB )- Outubro 2019 - Março 2020</b></p>
-  Sistema de verificação de pessoas politicamente expostas(Nodejs, Angular 4,MYSQL) <br>
-  Sistema de monitoramento de Vendas (Nodejs, Mysql) - Melhorias em serviços de processamento 
-  de vendas(Java Spring boot) <br>
-  Investigação de incidentes em logs e correções de bugs (AWS, Nodejs)<br>
-  Novas funcionalidades nos sistemas internos(Nodedjs, Angular 4)<br><br/><br/>
-  <p><b>Fullstack Feng Brasil – Mar 2019 - outubro - 2019 </b></p>
-  Desenvolvimento de sistemas da área esportiva e de fidelização de
-    sócio-torcedor -<br>
-  Sistemas web com relatórios contábeis online ou gerado em PDF, (PHP, Angular 7)<br>
-  Sistema para Transferência de Títulos entre Sócios (PHP, Angular 7, MYSQL)<br>
-  Refatoração e novas funcionalidades das páginas admin (PHP, Angular 7 )<br>
-  Sistema de verificação e aprovação de novos sócios (PHP, Angular 7, MYSQL)<br>
-  Landing page e Fale conosco de novo site (Nodejs, Angular 7)<br> 
-  Landing page para site de gerenciamento de multas (Angular 7)<br><br/><br/>
-  <p><b> Estágio: Casa & Video - Jun 2016 -Mai 2017</b></p>
-   1° Parte como Service Desk Tratamentos de chamados internos e externos 
-       remotamente<br>
-   2° Parte Estágio DBA Criação de queries no SQL Server Criação de
-        gráficos de desempenho em VBA consultando a base Auditoria de Queries<br><br/><br/>
-  <p><b>Estágio: Pesagro-Rio - Jun 2013 - Dez 2013 </b></p>
-    Atendimento Field Services e manutenção do site<br>
-  <br/><br/><p><b>Certificação</b></p>
-   <p> Safe-Ágil</p>
-    
+# Vitor Sales
+**Software Engineer | HealthTech & Radiology Systems Specialist**
 
+📍 Niterói, Rio de Janeiro  
+📞 (21) 98125-5132  
+📧 acessovst@icloud.com  
+🔗 [LinkedIn](https://linkedin.com/in/vitorsales) | [GitHub](https://github.com/tvitor)
+
+---
+
+## 💡 Resumo Profissional
+
+Engenheiro de Software sênior com **5+ anos** de atuação em sistemas críticos de HealthTech, especialista em **Radiology Information Systems (RIS)** que atendem **+70 unidades hospitalares** da Rede D'Or São Luiz — maior rede privada da América Latina.
+
+**Expertise:**
+- Arquitetura, performance e compliance regulatório (LGPD, ANVISA, DICOM, HL7/FHIR)
+- Workflows radiológicos de alta concorrência e criticidade clínica
+- Destaque recorrente em ciclos PI (SAFe) por entregas de alto impacto
+- Plantões críticos 24×7 e liderança técnica de equipes ágeis
+
+---
+
+## 💼 Experiência Profissional
+
+### **Rede D'Or São Luiz**
+**Software Engineer – Sistema RIS (Radiology Information System)**  
+*Maio/2020 – Atualmente (5 anos) • Rio de Janeiro, RJ*
+
+- ⭐ **Destaque do time** em múltiplos ciclos PI (SAFe) por entregas de alto impacto operacional
+- 🚀 Otimizei workflows radiológicos eliminando gargalos críticos:
+  - Fila inteligente de laudos com reserva automática (+30% produtividade)
+  - **Redução de 50%+** no tempo de filtros via refatoração de queries/views
+  - Dashboards de SLA médico em tempo real
+  - Sistema de alerta automático de laudos críticos (melhorou segurança do paciente)
+- 🔒 Garanti conformidade regulatória (LGPD, ANVISA, CFM)
+- 🔥 Plantões críticos 24×7 e resolução de incidentes de alta severidade
+- 👥 Mentoria de desenvolvedores júniores e entrevistas técnicas
+
+**Stack:** TypeScript, NestJS, Angular 12–17, PostgreSQL, Docker, Kubernetes, AWS (RDS, Lambda, S3), Jest, Cypress, DICOM, TypeORM, RabbitMQ
+
+---
+
+### **Experiências Anteriores (2016–2020)**
+
+**.add (Brasilcap)** • Desenvolvedor Full-Stack • *Out/2019 – Mar/2020*  
+Feng Brasil • Desenvolvedor Full-Stack • *Fev/2019 – Out/2019*  
+Casa & Video, Pesagro-Rio, SEDRAP/FIPERJ • *2016–2018*
+
+---
+
+## 🎓 Formação
+
+**Tecnólogo em Análise e Desenvolvimento de Sistemas** – Estácio (2018)
+
+---
+
+## 🏆 Certificações
+
+- Scrum Foundation Professional Certificate (SFPC) – CertiProf
+
+---
+
+## 🛠️ Competências Técnicas
+
+**Linguagens:** TypeScript/JavaScript, Node.js, NestJS, Angular (4–17)  
+**Bancos:** PostgreSQL, MySQL, DynamoDB, Redis  
+**Cloud & DevOps:** AWS (EC2, RDS, Lambda, S3), Docker, Kubernetes, CI/CD  
+**Testes:** Jest, Jasmine, Cypress (E2E), TDD  
+**Integrações:** DICOM, HL7/FHIR, REST, GraphQL, RabbitMQ, Microservices  
+**Regulatório:** LGPD, ANVISA, CFM, prontuário eletrônico  
+**Metodologias:** Scrum/SAFe, Clean Code, SOLID, Design Patterns
+
+---
+
+## 🌐 Idiomas
+
+**Português:** Nativo  
+**Inglês:** B2 (leitura técnica avançada, conversação intermediária)
+
+---
+
+## ✨ Diferenciais
+
+- ✅ 5 anos construindo RIS crítico para a maior rede hospitalar da América Latina
+- ✅ Experiência em sistemas onde falhas impactam diretamente a segurança do paciente
+- ✅ Domínio de performance, escalabilidade e compliance em HealthTech regulada
+- ✅ Liderança técnica comprovada e disponibilidade 24×7

@@ -1,82 +1,207 @@
 ---
 layout: post
-title:  "As etapas do desenvolvimento de software"
-date:   2018-07-02 10:18:00
-categories: Desenvolvimento_de_software
+title: "Ciclo de Vida do Software: Fundamentos das Etapas de Desenvolvimento"
+date: 2018-07-02 10:18:00
+categories: Engenharia_de_Software
 ---
-Quem nunca viu essa situação? Uma solução que uma empresa inteira  utiliza, está causando problemas para os usuários. E os problemas só apareceram depois que esse software foi entregue. E pior, o software foi diretamente implementado, sem nenhuma análise prévia ou criação de documentação. 
 
-E esse cenário? um software confuso que não possui documentação, confunde todos que estão usando, até mesmo quem o criou. Vive mudando as regras de negócio e nunca melhora o desempenho.
-As falhas e defeitos devem ser descobertas antes do produto ser entregue. 
+## O Problema da Falta de Processo
 
-As etapas que envolvem o desenvolvimento de software têm justamente essa intenção. Essas etapas, ou fases, tem por objetivo garantir uma qualidade no software. Qualidade que atenda os desejos que motivaram a criação desse produto e que evitem a entrega com problemas. 
+Já viu um software crítico falhar em produção porque foi implementado sem análise prévia? Ou sistemas sem documentação que confundem até quem os criou? Esses cenários são comuns quando **etapas fundamentais do desenvolvimento são ignoradas**.
 
-A intenção desse post é justamente falar dessas etapas, pois acredito que é um assunto que merece ser valorizado e o conhecimento compartilhado, afim de contribuir com a comunidade de TI através dos recursos das boas práticas. 
-Entender os processos de desenvolvimento de software é um passo inicial e fundamental para o amadurecimento do conhecimento relacionado a capacidade de produzir e manter um software de qualidade. Além disso, a definição padronizada de trabalho fomenta nas organizações um crescimento e um amadurecimento na forma de execução dos projetos, permitindo, inclusive, a repetição do que foi positivo.
+Falhas devem ser descobertas **antes** da entrega. As etapas do ciclo de vida existem justamente para garantir qualidade, atender requisitos e evitar problemas em produção.
 
-Os Processos e as boas práticas na construção de um software é determinante para a qualidade final do produto. Esse produto, é envolvido por atividades sistematizadas, divididas em fases ou etapas. Para qualificar o entendimento, é necessário utilizar a análise de requisitos de algumas dessas etapas, garantindo a qualidade e reduzindo riscos. A descrição correta dos requisitos permitirá uma modelagem ou desenho do software, possibilitando então a implementação e posteriormente o teste.
+Este artigo apresenta as fases clássicas do desenvolvimento de software — base para metodologias modernas e processos organizacionais maduros.
 
-É importante ressaltar, que esses processos só terão resultado, se respeitarem a necessidade do cliente e dos usuários, tendo qualidade, reduzindo custos e prazos. São fases ou etapas do processo de desenvolvimento do software e suas fases específicas:
+---
 
+## As Fases do Desenvolvimento de Software
+
+O processo de desenvolvimento segue etapas sistemáticas que garantem qualidade e reduzem riscos:
 
 ![tabelaEtapasComuns](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/Tabela%201%202018-07-02%2010-48.PNG)
 
-**Especificação**
+---
 
-O início da especificação de requisitos, onde é demostrado o que foi solicitado, tem o usuário como peça chave. 
+## 1. Especificação de Requisitos
 
-Primeiro, suas declarações em linguagem natural e também em diagramas, apresenta como deseja que o sistema funcione.
+**Objetivo:** Definir **o que** o sistema deve fazer, com o usuário como peça-chave.
+
+### Coleta de Requisitos
+O usuário descreve suas necessidades em **linguagem natural** e diagramas, apresentando como deseja que o sistema funcione.
 
 ![Diagrama](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/dados%202018-07-02.PNG)
 
- Em seguida, é estabelecido detalhadamente as funções e restrições. Documentado, chamado de especificação funcional. Pode ser representado como um contrato entre comprador do sistema e o desenvolvedor do software. Ao final, é feito uma descrição abstrata desse projeto sendo uma base para sua implementação, acrescentando mais detalhes aos requisitos do sistema.
-Em um segundo momento, começa a análise de requisitos, onde basicamente envolve o reconhecimento do problema e sua modelagem. Nessa análise de requisitos, definir os conceitos do projeto, do produto, e as suas características funcionais e não funcionais é determinante.
+### Análise de Requisitos
+Após a coleta, inicia-se a análise, que envolve:
+- Reconhecimento do problema
+- Modelagem da solução
+- Definição de características **funcionais** e **não funcionais**
 
-Destaco aqui os requisitos funcionais (as ações que deverá existir no programa) e não funcionais (características triviais)
+#### Requisitos Funcionais vs. Não Funcionais
+
+**Funcionais:** Ações específicas que o sistema deve executar  
+*Exemplo:* "Permitir agendamento de consultas por CPF"
+
+**Não Funcionais:** Atributos de qualidade (não são "triviais"!)  
+*Exemplo:* "Tempo de resposta < 2 segundos", "Disponibilidade 99.9%", "Conformidade LGPD"
 
 ![requisitos](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/levantamento%20de%20requisitos%202018-07-02.PNG)
 
-A modelagem é outro momento que merece destaque, aqui compreendemos os fluxos da informação, do controle dos aspectos funcionais e do comportamento do sistema.
+### Modelagem
+Nesta fase, compreendemos:
+- Fluxos de informação
+- Controle de processos
+- Comportamento do sistema
 
 ![dados](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/dados%202018-07-02.PNG)
 
-Ao final da análise de requisitos, encerramos com uma documentação de especificação de requisitos de software. Esse documento pode conter um manual prévio do usuário, afim de criar uma revisão dos requisitos pelo usuário ainda no estágio inicial. Isso sem dúvidas vai diminuir as chances de ocorrer um problema no futuro.
+### Documentação de Especificação
+Ao final, produz-se o **Documento de Especificação de Requisitos de Software (ERS)**, que pode incluir:
+- Especificação funcional (contrato entre cliente e desenvolvedor)
+- Manual preliminar do usuário
+- Validação dos requisitos pelo usuário
 
-A especificação do software define funções e restrições de sistema através da engenharia de requisitos. É produzido uma série de documentos de requisitos.
-São eles: Estudo de viabilidade, Levantamento e análise de requisitos, especificação de requisitos, validação de requisitos. Todos eles são feitos simultaneamente.
-Futuramente em outros posts, estarei falando a respeitos dos padrões de desenvolvimento de software(PDS) e os diferentes modelos de ciclo de vida do software
+**Artefatos produzidos:**
+- Estudo de viabilidade
+- Levantamento e análise de requisitos
+- Especificação de requisitos
+- Validação de requisitos
 
-**Projeto**
+---
 
-Desenvolver o desenho ou a arquitetura através das suas propriedades estruturais (organizando a iteração dos módulos, objetos filtros etc.) e não funcionais, que seria a descrição do projeto de arquitetura, suas capacidades, confiabilidade, segurança, etc.
+## 2. Projeto (Design)
 
-**Codificação**
+**Objetivo:** Definir **como** o sistema será construído.
 
-Agora sim, o momento da codificação. Nessa etapa utilizamos a linguagem de programação, e é necessário também a documentação dessa etapa. Conhecer as diferentes linguagens e os recursos relacionados a elas podem ser determinante no aspecto de desempenho e tempo de entrega do software.
+Nesta fase, desenvolve-se a arquitetura do sistema através de:
 
+**Propriedades Estruturais**
+- Organização de módulos e componentes
+- Interação entre objetos
+- Definição de interfaces
 
+**Propriedades Não Funcionais**
+- Capacidade e escalabilidade
+- Confiabilidade
+- Segurança
+- Performance
 
-**Fase de Testes**
+---
 
-Quem garante que depois de tudo isso, o software estará 100% como o usuário gostaria? Por isso, é fundamental uma etapa precoce do uso do software, através de procedimentos de testes tendo sua última etapa uma revisão da especificação do projeto e da codificação. Dois nomes conhecidos aparecem nessa fase: O black box e White box
+## 3. Implementação (Codificação)
 
-No black box foca nos requisitos funcionais através da opinião do usuário. Concentra-se nas funções que o software deve possuir. O testador utiliza as seguintes técnicas: 
+**Objetivo:** Transformar o design em código funcional.
 
-Caso de uso (ao selecionar o caso de uso a ser testado, é identificado os fluxos e observado o diagrama de atividade, em seguida, é executado as ações do ator para verificar se as respostas são esperadas), particionamento de equivalência(separar as entradas do sistema em categorias e observar os dados se serão válidos ou inválidos, onde deveria ser rejeitado) testes baseados em grafo(testa o relacionamento entre objetos ), teste de todos os pares, teste de tabela de decisão, tabelas de estado de transição e análise do valor limite. 
-No White box, as partes internas como seus componentes são examinados detalhadamente. Aqui o código é observado.
+Esta é a fase onde a linguagem de programação é aplicada. **Documentar o código é essencial** — conhecer diferentes linguagens e suas características pode ser determinante para:
+- Desempenho do sistema
+- Tempo de desenvolvimento
+- Manutenibilidade futura
 
-**Manutenção**
+**Boas práticas:**
+- Código limpo e legível
+- Comentários em lógicas complexas
+- Versionamento (Git)
+- Padrões de código (linters, formatters)
 
-A manutenção permite a correção ou alteração após a entrega do sistema. É importante no ciclo de vida do software ter ações preventivas e atividades corretivas nas falhas descobertas no código, no projeto ou nas especificações. Além disso, podem acrescentar novas funções. Todo software precisa ter mudanças continuas para não se tornar inútil com a evolução dos sistemas. Existem quatro formas de manutenção:
+---
+
+## 4. Testes
+
+**Objetivo:** Garantir que o software funciona conforme especificado.
+
+Testes devem começar **cedo** no ciclo de desenvolvimento, revisando especificação, projeto e codificação.
+
+### Estratégias de Teste
+
+#### **Caixa Preta (Black Box)**
+Foca em **requisitos funcionais** do ponto de vista do usuário. Não examina o código interno.
+
+**Técnicas:**
+- Testes de caso de uso
+- Particionamento de equivalência (dados válidos vs. inválidos)
+- Testes baseados em grafo (relacionamentos entre objetos)
+- Análise de valor limite
+- Tabelas de decisão
+- Transições de estado
+
+#### **Caixa Branca (White Box)**
+Examina a **estrutura interna** do código e seus componentes.
+
+**Técnicas:**
+- Cobertura de código (linhas, branches)
+- Teste de fluxo de dados
+- Teste de caminho lógico
+
+---
+
+## 5. Manutenção
+
+**Objetivo:** Manter o software funcional e relevante após a entrega.
+
+Todo software precisa de **mudanças contínuas** para não se tornar obsoleto. A manutenção envolve ações preventivas e corretivas.
+
+### Tipos de Manutenção
 
 ![tabelaManutencao](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/Tabela%202%202018-07-02%2010-48.PNG)
 
-**Documentação:** 
+**Corretiva:** Corrigir defeitos descobertos  
+**Adaptativa:** Ajustar a mudanças no ambiente (APIs, regulamentações)  
+**Perfectiva:** Melhorar desempenho ou usabilidade  
+**Preventiva:** Refatorar código para evitar problemas futuros
 
-Uma documentação completa, sendo preenchida em todas as fases do processo, garante uma manutenção mais eficiente. Pois facilita o trabalho do suporte técnico permitindo um atendimento eficaz.  Ter uma documentação de uso comum e outra documentação técnica, permite ao usuário uma documentação de fácil compreensão, através de apostilas ou manuais. E aos técnicos e desenvolvedores, ter uma documentação específica, facilita o ganho de tempo para alterações ao observar fluxogramas, o código fonte, os processos e as regras de negócio.
+---
 
-Na modelagem Ágil, enfatiza-se que somente existirá a necessidade da documentação se a regra do negócio assim exigir. Nesse caso, a energia e o tempo dos participantes do projeto estará voltada para uma documentação eficiente e econômica, Diminuindo a carga de trabalho ao máximo que puder. O benefício de ter a documentação tem que ser maior do que o custo de cria-la e mantê-la. 
+## 6. Documentação
 
-Futuramente, quero me aprofundar mais nesse tema de análise e desenvolvimento de sistemas, postando alguns diagramas e apresentando o desenvolvimento de programas em diversas linguagens e a utilização de diversas metodologias e recursos. Mas não poderia fazer isso sem antes falar de um assunto base para qualquer desenvolvimento, que é o seu planejamento.
+**Objetivo:** Facilitar manutenção e suporte técnico.
 
+Uma documentação completa, preenchida em **todas as fases**, garante:
+- Manutenção eficiente
+- Atendimento eficaz do suporte
+- Transferência de conhecimento
 
+### Tipos de Documentação
+
+**Documentação de Usuário**
+- Manuais de uso
+- Tutoriais
+- FAQs
+
+**Documentação Técnica**
+- Fluxogramas
+- Código-fonte comentado
+- Processos e regras de negócio
+- Arquitetura do sistema
+
+### Documentação em Metodologias Ágeis
+
+Na modelagem ágil, **documente apenas o necessário**:
+- A documentação deve ter **mais benefício que custo**
+- Foco em documentação eficiente e econômica
+- Energia da equipe voltada para entregar valor
+
+**Princípio:** O benefício de criar e manter a documentação deve ser **maior** que o esforço necessário.
+
+---
+
+## Conclusão
+
+As etapas do desenvolvimento de software (especificação → projeto → implementação → testes → manutenção → documentação) são **fundamentais** para:
+
+✅ Garantir qualidade  
+✅ Reduzir riscos  
+✅ Atender requisitos do cliente  
+✅ Facilitar manutenção  
+✅ Permitir evolução do sistema  
+
+Entender esses processos é essencial para construir e manter software de qualidade, independentemente da metodologia escolhida (cascata, ágil, DevOps).
+
+---
+
+**Referências:**
+- Pressman, R. *Engenharia de Software*. McGraw-Hill.
+- Sommerville, I. *Software Engineering*. Pearson.
+- IEEE Std 830. *Recommended Practice for Software Requirements Specifications*.
+
+**Tags:** #EngenhariaDeSoftware #CicloDeVida #Requisitos #Testes #Manutenção

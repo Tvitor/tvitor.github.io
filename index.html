@@ -4,23 +4,26 @@ layout: default
 
 <div class="home">
  <div class="top card">
-    <!-- <a class="email" href="mailto:{{site.email}}">{{site.email}}</a> -->
-    <p class="description">{{ site.description }}</p>
-
-<div class = "botoescustom">
-	<a href="about" class="btn">Curriculum Vitae</a>
-	<a href="https://resume.github.io/?tvitor" class="btn">Mais informações</a>
-	<a href="https://www.linkedin.com/in/vitor-sales89/" class="btn3">Linkedin</a>
-</div>			
-		
-		
-	
-
-</div>	
+    <p class="description">
+      Engenheiro de Software sênior especializado em <strong>HealthTech</strong> e 
+      <strong>Radiology Information Systems (RIS)</strong>. 
+      5+ anos desenvolvendo sistemas críticos para +70 unidades hospitalares da Rede D'Or São Luiz.
+    </p>
+    
+    <div class="botoescustom">
+      <a href="about" class="btn">📄 Curriculum Vitae</a>
+      <a href="https://www.linkedin.com/in/vitorsales/" class="btn3">💼 LinkedIn</a>
+      <a href="https://github.com/tvitor" class="btn4">💻 GitHub</a>
+    </div>
+    
+    <p style="margin-top: 20px; color: #666;">
+      <strong>Stack Principal:</strong> TypeScript • NestJS • Angular • PostgreSQL • AWS • Docker • Kubernetes
+    </p>
+  </div>
 
   <div class="posts card">
       <div class="card-content white-text">
-      <span class="card-title">Postagens</span>
+      <span class="card-title">📝 Artigos Técnicos</span>
 
       <ul class="post-list">
         {% for post in site.posts %}
@@ -33,6 +36,5 @@ layout: default
 
       <p class="rss-subscribe">Assine <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
       </div>
-   </div>
-
+  </div>
 </div>
