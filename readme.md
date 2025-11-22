@@ -8,7 +8,7 @@
 > 5+ anos construindo sistemas críticos para a Rede D'Or São Luiz
 
 🔗 **Live Site:** [tvitor.github.io](https://tvitor.github.io/)  
-🔗 **LinkedIn:** [linkedin.com/in/vitorsales](https://linkedin.com/in/vitorsales)
+🔗 **LinkedIn:** [linkedin.com/in/vitor-sales89](https://linkedin.com/in/vitor-sales89)
 
 ---
 

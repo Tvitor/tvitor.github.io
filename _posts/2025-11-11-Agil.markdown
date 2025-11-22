@@ -1,0 +1,133 @@
+---
+layout: post
+title: "Desenvolvimento Ágil em Sistemas Críticos: SAFe e Scrum na Prática"
+date: 2018-07-02 10:18:00
+categories: Metodologias_Ageis
+---
+
+## A Evolução do Desenvolvimento de Software
+
+O modelo cascata tradicional (especificação → projeto → codificação → testes → manutenção) funcionava bem em projetos previsíveis. Porém, em sistemas críticos modernos — especialmente em HealthTech — a rigidez desse modelo pode custar vidas.
+
+Imagine um sistema RIS (Radiology Information System) onde uma mudança regulatória da ANVISA exige alteração urgente no fluxo de laudos críticos. Esperar meses por um ciclo completo de cascata não é opção. É aqui que metodologias ágeis fazem a diferença.
+
+## SAFe: Agilidade em Escala para Sistemas Críticos
+
+O **Scaled Agile Framework (SAFe)** foi projetado para grandes organizações que precisam coordenar múltiplos times mantendo agilidade. No contexto hospitalar, onde diversos sistemas interagem (RIS, HIS, PACS, prontuário eletrônico), SAFe oferece estrutura sem engessamento.
+
+### Ciclos PI (Program Increment)
+
+Os **PIs** são blocos de trabalho de 8-12 semanas onde times sincronizam entregas. Diferente de sprints isolados, PIs garantem:
+
+- **Planejamento conjunto** entre times de backend, frontend e infraestrutura
+- **Integração contínua** de sistemas que dependem entre si
+- **Demonstrações consolidadas** para stakeholders (médicos, compliance, gestão)
+
+**Exemplo prático:**  
+Em um PI focado em performance, três épicos podem rodar em paralelo:
+1. Otimização de queries SQL (backend)
+2. Refatoração de filtros no Angular (frontend)
+3. Implementação de cache Redis (infra)
+
+Ao final do PI, a entrega integrada resulta em **50%+ de redução no tempo de busca** — impacto mensurável para radiologistas que laudam centenas de exames/dia.
+
+## Scrum: O Coração da Execução
+
+Dentro de cada PI, times operam em **sprints de 2 semanas** com rituais bem definidos:
+
+### Daily Standup
+Crítico em ambientes 24×7. Um radiologista relata lentidão no sistema? O time já ajusta a sprint para investigar.
+
+### Sprint Planning
+Priorização baseada em **valor clínico**, não apenas técnico:
+- Feature que acelera laudos urgentes > refatoração de código legado
+- Compliance LGPD > nova funcionalidade não-regulada
+
+### Sprint Review
+Demonstração **ao vivo** com usuários reais (médicos, técnicos de radiologia). Feedback imediato evita retrabalho.
+
+### Sprint Retrospective
+Times de alta performance fazem retrospectivas brutalmente honestas:
+- "Por que aquele bug crítico só foi descoberto em produção?"
+- "Como melhorar handoff entre backend e frontend?"
+
+## Testes em Ambientes Ágeis Críticos
+
+Diferente do modelo cascata (testes só no final), metodologias ágeis exigem **testes contínuos**:
+
+### TDD (Test-Driven Development)
+Escrevemos testes **antes** do código. Para um endpoint que valida exames DICOM:
+
+```typescript
+// Teste escrito primeiro
+describe('DICOMValidationService', () => {
+  it('deve rejeitar exame com modalidade inválida', async () => {
+    const invalidExam = { modality: 'INVALID' };
+    await expect(service.validate(invalidExam))
+      .rejects.toThrow('Modalidade não conforme DICOM');
+  });
+});
+```
+
+### Testes E2E com Cypress
+Simulam fluxos completos de usuário:
+- Radiologista abre worklist → reserva laudo → insere texto → assina digitalmente
+- Qualquer quebra no fluxo é detectada **antes** de produção
+
+### Testes de Carga
+Em sistemas que atendem +70 unidades hospitalares, testes de performance são obrigatórios:
+- Simulação de 500 requisições/segundo no endpoint de busca
+- Monitoramento de tempo de resposta < 300ms (SLA médico)
+
+## Documentação Ágil: O Essencial, Nada Mais
+
+**Documentação útil** em ambientes ágeis:
+
+✅ **README técnico** com setup local (Docker Compose)  
+✅ **ADRs (Architecture Decision Records)** para decisões críticas  
+✅ **Swagger/OpenAPI** auto-gerado das APIs  
+✅ **Runbooks** para plantão 24×7 (Como resolver incidente X?)  
+
+❌ Documentação extensa que ninguém lê  
+❌ Diagramas UML complexos que ficam desatualizados  
+
+## DevOps: Agilidade Até a Produção
+
+Metodologias ágeis só funcionam com **CI/CD robusto**:
+
+```yaml
+# Pipeline simplificado
+build → unit tests → integration tests → 
+deploy staging → smoke tests → deploy production
+```
+
+**Resultado:** Feature aprovada na sprint review é entregue em produção **no mesmo dia**.
+
+## Lições de Sistemas Críticos
+
+Trabalhar com SAFe/Scrum em HealthTech ensina:
+
+1. **Agilidade não é desorganização** — é disciplina com flexibilidade
+2. **Velocity só importa se agregar valor clínico** — entregar fast != entregar certo
+3. **Retrospectivas salvam vidas** — literalmente, ao prevenir bugs críticos
+4. **Compliance não é bloqueio** — é requisito não-funcional, como performance
+
+## Conclusão
+
+O modelo cascata tinha sua lógica em 2018, mas sistemas modernos — especialmente críticos — exigem:
+
+- **Feedback loops curtos** (sprints de 2 semanas)
+- **Entregas incrementais** (PIs de 10 semanas)
+- **Testes contínuos** (TDD + E2E + Carga)
+- **Documentação viva** (código auto-explicativo + ADRs)
+
+Metodologias ágeis não são "falta de planejamento". São planejamento **adaptativo** para ambientes onde requisitos mudam, tecnologias evoluem e vidas dependem de entregas rápidas e confiáveis.
+
+---
+
+**Referências:**  
+- Scaled Agile, Inc. *SAFe 6.0 Framework*. scaledagileframework.com, 2024.  
+- Schwaber, K. & Sutherland, J. *The Scrum Guide*. scrumguides.org, 2020.  
+- Beck, K. *Test Driven Development: By Example*. Addison-Wesley, 2003.
+
+**Tags:** #Agile #SAFe #Scrum #TDD #DevOps #HealthTech

@@ -60,7 +60,9 @@
 
 .page-content{ 
     margin: $spacing-unit auto;   
-    width: 980px;    
+    max-width: 980px;  // ✅ Trocar width por max-width
+    width: 100%;       // ✅ Já está correto
+    padding: 0 20px;
     
     .top{
         
@@ -143,5 +145,20 @@
     .page-content{  
         margin: $spacing-unit 2%;
         width: 96%;
+    }
+}
+
+@media (max-width: 768px) {
+    .botoescustom {
+        flex-direction: column;
+        
+        a {
+            width: 100%;
+            margin: 5px 0;
+        }
+    }
+    
+    .page-content .top p.description {
+        font-size: 1.6rem;
     }
 }

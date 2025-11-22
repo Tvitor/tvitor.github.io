@@ -16,41 +16,11 @@
   text-align: center;
   white-space: nowrap;
   text-decoration: none !important;
-  text-transform: none;
   text-transform: uppercase;
   border: 0 none;
   border-radius: 4px;
   color: #FFFFFF;
-  background:  #d7aa05;
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.3;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-
-.btn3, button, [type=submit] {
-  overflow: hidden;
-  margin: 10px;
-  padding: 12px 12px;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  -webkit-transition: all 60ms ease-in-out;
-  transition: all 60ms ease-in-out;
-  text-align: center;
-  white-space: nowrap;
-  text-decoration: none !important;
-  text-transform: none;
-  text-transform: uppercase;
-  border: 0 none;
-  border-radius: 4px;
-  color: #FFFFFF;
-  background: #00A0DC;
+  background: $btn-primary;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.3;
@@ -64,6 +34,7 @@
   transition: all 60ms ease;
   opacity: .85;
 }
+
 .btn:active, button:active, [type=submit]:active {
   -webkit-transition: all 60ms ease;
   transition: all 60ms ease;
@@ -71,13 +42,148 @@
           transform: scale(0.97);
   opacity: .75;
 }
+
 .btn:focus, button:focus, [type=submit]:focus {
   outline: none;
 }
 
+// ✅ Botões personalizados (cópia da estrutura do .btn)
+.btn-linkedin {
+  overflow: hidden;
+  margin: 10px;
+  padding: 12px 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 60ms ease-in-out;
+  transition: all 60ms ease-in-out;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  border: 0 none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background: $btn-linkedin;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.3;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.btn-linkedin:hover {
+  -webkit-transition: all 60ms ease;
+  transition: all 60ms ease;
+  opacity: .85;
+}
+
+.btn-linkedin:active {
+  -webkit-transition: all 60ms ease;
+  transition: all 60ms ease;
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  opacity: .75;
+}
+
+.btn-linkedin:focus {
+  outline: none;
+}
+
+.btn-github {
+  overflow: hidden;
+  margin: 10px;
+  padding: 12px 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 60ms ease-in-out;
+  transition: all 60ms ease-in-out;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  border: 0 none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background: $btn-github;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.3;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.btn-github:hover {
+  -webkit-transition: all 60ms ease;
+  transition: all 60ms ease;
+  opacity: .85;
+}
+
+.btn-github:active {
+  -webkit-transition: all 60ms ease;
+  transition: all 60ms ease;
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  opacity: .75;
+}
+
+.btn-github:focus {
+  outline: none;
+}
+
+.btn-stats {
+  overflow: hidden;
+  margin: 10px;
+  padding: 12px 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 60ms ease-in-out;
+  transition: all 60ms ease-in-out;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  border: 0 none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background: $btn-stats;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.3;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.btn-stats:hover {
+  -webkit-transition: all 60ms ease;
+  transition: all 60ms ease;
+  opacity: .85;
+}
+
+.btn-stats:active {
+  -webkit-transition: all 60ms ease;
+  transition: all 60ms ease;
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  opacity: .75;
+}
+
+.btn-stats:focus {
+  outline: none;
+}
 
 /* Button Outline */
-
 .btn-outline {
   border: 3px solid #fff;
   color: #fff;
@@ -104,9 +210,7 @@
   background: #000;
 }
 
-
 /* Button Clear */
-
 .btn-clear {
     background: transparent;
     color: gray;
