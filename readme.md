@@ -4,7 +4,7 @@
 [![Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-CC0000?logo=jekyll)](https://jekyllrb.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-> **Senior Software Engineer** especializado em **HealthTech & Radiology Information Systems (RIS)**  
+> **Full-Stack Developer** especializado em **HealthTech & Radiology Information Systems (RIS)**  
 > 5+ anos construindo sistemas críticos para a Rede D'Or São Luiz
 
 🔗 **Live Site:** [tvitor.github.io](https://tvitor.github.io/)  
@@ -18,7 +18,7 @@ Este repositório contém meu **portfolio profissional** e **blog técnico**, de
 
 O objetivo é compartilhar conhecimento sobre:
 - 🏥 **HealthTech:** Desenvolvimento de sistemas RIS/PACS/HIS
-- ⚙️ **Engenharia de Software:** Arquitetura, performance, compliance regulatório
+- ⚙️ performance, compliance regulatório
 - 🚀 **Metodologias Ágeis:** SAFe, Scrum, TDD, DevOps
 - 💻 **Stack Moderna:** TypeScript, NestJS, Angular, PostgreSQL, AWS, Kubernetes
 
