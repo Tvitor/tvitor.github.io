@@ -25,7 +25,7 @@ A comunicação com sistemas HIS (Hospital Information System) e prontuários el
 ### Arquitetura Técnica Recomendada
 
 **Backend Escalável**  
-Microserviços em TypeScript/Node.js com NestJS framework permitem separação de responsabilidades entre módulos críticos: agendamento, laudo, faturamento e relatórios. A utilização de PostgreSQL com particionamento temporal otimiza consultas em bases históricas extensas.
+Microserviços em TypeScript/Node.js com NestJS framework permitem separação de responsabilidades entre módulos críticos: agendamento, laudo, faturamento e relatórios. A utilização de SQL serverL com particionamento temporal otimiza consultas em bases históricas extensas.
 
 **Camada de Mensageria**  
 RabbitMQ ou Apache Kafka garantem processamento assíncrono de notificações críticas (laudos urgentes, exames cancelados) e integração eventual-consistency com sistemas legados.

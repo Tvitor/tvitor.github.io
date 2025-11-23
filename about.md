@@ -42,8 +42,7 @@ Full-Stack  Developer com **5 anos** de atuação em sistemas críticos de Healt
 - 🔥 Plantões críticos 24×7 e resolução de incidentes de alta severidade
 - 👥 Mentoria de desenvolvedores júniores e entrevistas técnicas
 
-**Stack:** TypeScript, NestJS, Angular 12–17, PostgreSQL, Docker, Kubernetes, AWS (RDS, Lambda, S3), Jest, Cypress, DICOM, TypeORM, RabbitMQ
-
+**Stack:** TypeScript, NestJS, Angular 12–17, SQL server, Docker, Kubernetes, AWS (RDS, Lambda, S3), Jest, Cypress, DICOM, TypeORM
 ---
 
 ### **Experiências Anteriores (2016–2020)**
@@ -69,10 +68,10 @@ Casa & Video, Pesagro-Rio, SEDRAP/FIPERJ • *2016–2018*
 ## 🛠️ Competências Técnicas
 
 **Linguagens:** TypeScript/JavaScript, Node.js, NestJS, Angular (4–17)  
-**Bancos:** PostgreSQL, MySQL, DynamoDB, Redis  
+**Bancos:** SQL Server, MySQL, DynamoDB, Redis  
 **Cloud & DevOps:** AWS (EC2, RDS, Lambda, S3), Docker, Kubernetes, CI/CD  
 **Testes:** Jest, Jasmine, Cypress (E2E), TDD  
-**Integrações:** DICOM, HL7/FHIR, REST, GraphQL, RabbitMQ, Microservices  
+**Integrações:** DICOM, HL7/FHIR, REST, GraphQL, Microservices  
 **Regulatório:** LGPD, ANVISA, CFM, prontuário eletrônico  
 **Metodologias:** Scrum/SAFe, Clean Code, SOLID, Design Patterns
 

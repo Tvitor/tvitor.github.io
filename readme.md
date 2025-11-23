@@ -20,7 +20,7 @@ O objetivo é compartilhar conhecimento sobre:
 - 🏥 **HealthTech:** Desenvolvimento de sistemas RIS/PACS/HIS
 - ⚙️ performance, compliance regulatório
 - 🚀 **Metodologias Ágeis:** SAFe, Scrum, TDD, DevOps
-- 💻 **Stack Moderna:** TypeScript, NestJS, Angular, PostgreSQL, AWS, Kubernetes
+- 💻 **Stack Moderna:** TypeScript, NestJS, Angular, SQL serverL, AWS, Kubernetes
 
 ---
 
