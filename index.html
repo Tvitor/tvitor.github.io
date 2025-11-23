@@ -3,59 +3,50 @@ layout: default
 ---
 
 <div class="home">
- <div class="top card">
+  <div class="top card">
     <p class="description">
-      Full-Stack Developer especializado em <strong>HealthTech</strong> e 
-      <strong>Radiology Information Systems (RIS)</strong>. 
+      Full-Stack Developer especializado em <strong>HealthTech</strong> e
+      <strong>Radiology Information Systems (RIS)</strong>.
       5+ anos desenvolvendo sistemas críticos para +70 unidades hospitalares da Rede D'Or São Luiz.
     </p>
-    
+
     <div class="botoescustom">
       <a href="about" class="btn" aria-label="Acessar Curriculum Vitae">
         📄 Curriculum Vitae
       </a>
-      <a href="https://www.linkedin.com/in/vitor-sales89/" 
-        class="btn-linkedin" 
-        aria-label="Visitar perfil no LinkedIn"
-        target="_blank" 
-        rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/vitor-sales89/" class="btn-linkedin" aria-label="Visitar perfil no LinkedIn"
+        target="_blank" rel="noopener noreferrer">
         💼 LinkedIn
       </a>
-      <a href="https://github.com/tvitor" 
-        class="btn-github"
-        aria-label="Visitar perfil no GitHub"
-        target="_blank"
+      <a href="https://github.com/tvitor" class="btn-github" aria-label="Visitar perfil no GitHub" target="_blank"
         rel="noopener noreferrer">
         💻 GitHub
       </a>
-      <a href="https://resume.github.io/?tvitor" 
-        class="btn-stats"
-        aria-label="Ver estatísticas do GitHub"
-        target="_blank"
-        rel="noopener noreferrer">
+      <a href="https://resume.github.io/?tvitor" class="btn-stats" aria-label="Ver estatísticas do GitHub"
+        target="_blank" rel="noopener noreferrer">
         📊 GitHub Stats
       </a>
     </div>
-    
+
     <p style="margin-top: 20px; color: #666;">
-      <strong>Stack Principal:</strong> TypeScript • NestJS • Angular • SQL serverL • AWS • Docker • Kubernetes
+      <strong>Stack Principal:</strong> TypeScript • NestJS • Angular • SQL server • AWS • Docker • Kubernetes
     </p>
   </div>
 
   <div class="posts card">
-      <div class="card-content white-text">
+    <div class="card-content white-text">
       <span class="card-title">📝 Artigos Técnicos</span>
 
       <ul class="post-list">
         {% for post in site.posts %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>            
-          </li>
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
         {% endfor %}
       </ul>
 
-      <p class="rss-subscribe">Assine <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-      </div>
+      <p class="rss-subscribe">Assine <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
   </div>
 </div>

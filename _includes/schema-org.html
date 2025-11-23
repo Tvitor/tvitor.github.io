@@ -1,0 +1,44 @@
+<!-- Schema.org JSON-LD for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}Person{% endif %}",
+  {% if page.layout == 'post' %}
+  "headline": "{{ page.title | escape }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "Vitor Sales",
+    "url": "{{ site.url }}"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Vitor Sales"
+  },
+  "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+  }
+  {% else %}
+  "name": "Vitor Sales",
+  "jobTitle": "Full-Stack Developer",
+  "description": "{{ site.description }}",
+  "url": "{{ site.url }}",
+  "sameAs": [
+    "https://www.linkedin.com/in/vitor-sales89",
+    "https://github.com/tvitor"
+  ],
+  "knowsAbout": ["HealthTech", "RIS", "DICOM", "HL7", "TypeScript", "NestJS", "Angular", "SQL Server", "AWS", "Kubernetes"],
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "Estácio"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Rede D'Or São Luiz"
+  }
+  {% endif %}
+}
+</script>
