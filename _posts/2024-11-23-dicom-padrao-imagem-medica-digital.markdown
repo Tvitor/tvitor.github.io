@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "O Que é DICOM? Guia Completo do Padrão de Imagem Médica Digital"
-date: 2025-01-15 09:00:00
+date: 2024-11-23 09:00:00
 categories: HealthTech DICOM
 description: "Entenda o que é DICOM, como funciona o padrão de imagem médica mais usado no mundo, sua importância em PACS, RIS e HealthTech, e por que todo desenvolvedor da área precisa conhecê-lo."
 ---
