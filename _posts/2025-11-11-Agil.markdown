@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Desenvolvimento Ágil em Sistemas Críticos: SAFe e Scrum na Prática"
-date: 2018-07-02 10:18:00
+date: 2025-11-11 10:18:00
 categories: Metodologias_Ageis
 ---
 

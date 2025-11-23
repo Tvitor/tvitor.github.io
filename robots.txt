@@ -1,0 +1,17 @@
+# robots.txt for tvitor.github.io
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://tvitor.github.io/sitemap.xml
+Sitemap: https://tvitor.github.io/feed.xml
+
+# Disallow admin/config files
+Disallow: /.git/
+Disallow: /.jekyll-cache/
+Disallow: /_site/
+Disallow: /Gemfile
+Disallow: /Gemfile.lock
+Disallow: /_config.yml
+Disallow: /readme.md
