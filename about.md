@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # Vitor Sales
-**Software Engineer | HealthTech & Radiology Systems Specialist**
+**Full-Stack Developer | HealthTech & Radiology Systems Specialist**
 
 📍 Niterói, Rio de Janeiro  
 📞 (21) 98125-5132  
@@ -16,7 +16,7 @@ permalink: /about/
 
 ## 💡 Resumo Profissional
 
-Engenheiro de Software sênior com **5+ anos** de atuação em sistemas críticos de HealthTech, especialista em **Radiology Information Systems (RIS)** que atendem **+70 unidades hospitalares** da Rede D'Or São Luiz — maior rede privada da América Latina.
+Full-Stack  Developer com **5 anos** de atuação em sistemas críticos de HealthTech, especialista em **Radiology Information Systems (RIS)** que atendem **+70 unidades hospitalares** da Rede D'Or São Luiz — maior rede privada da América Latina.
 
 **Expertise:**
 - Arquitetura, performance e compliance regulatório (LGPD, ANVISA, DICOM, HL7/FHIR)
@@ -29,7 +29,7 @@ Engenheiro de Software sênior com **5+ anos** de atuação em sistemas crítico
 ## 💼 Experiência Profissional
 
 ### **Rede D'Or São Luiz**
-**Software Engineer – Sistema RIS (Radiology Information System)**  
+**Full-Stack Developer – Sistema RIS (Radiology Information System)**  
 *Maio/2020 – Atualmente (5 anos) • Rio de Janeiro, RJ*
 
 - ⭐ **Destaque do time** em múltiplos ciclos PI (SAFe) por entregas de alto impacto operacional
