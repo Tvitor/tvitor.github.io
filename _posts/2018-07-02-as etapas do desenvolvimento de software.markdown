@@ -5,7 +5,7 @@ date: 2018-07-02 10:18:00
 categories: Engenharia_de_Software
 ---
 
-## O Problema da Falta de Processo
+#### O Problema da Falta de Processo
 
 Já viu um software crítico falhar em produção porque foi implementado sem análise prévia? Ou sistemas sem documentação que confundem até quem os criou? Esses cenários são comuns quando **etapas fundamentais do desenvolvimento são ignoradas**.
 
@@ -15,7 +15,7 @@ Este artigo apresenta as fases clássicas do desenvolvimento de software — bas
 
 ---
 
-## As Fases do Desenvolvimento de Software
+#### As Fases do Desenvolvimento de Software
 
 O processo de desenvolvimento segue etapas sistemáticas que garantem qualidade e reduzem riscos:
 
@@ -23,16 +23,16 @@ O processo de desenvolvimento segue etapas sistemáticas que garantem qualidade 
 
 ---
 
-## 1. Especificação de Requisitos
+#### 1. Especificação de Requisitos
 
 **Objetivo:** Definir **o que** o sistema deve fazer, com o usuário como peça-chave.
 
-### Coleta de Requisitos
+#### Coleta de Requisitos
 O usuário descreve suas necessidades em **linguagem natural** e diagramas, apresentando como deseja que o sistema funcione.
 
 ![Diagrama](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/dados%202018-07-02.PNG)
 
-### Análise de Requisitos
+#### Análise de Requisitos
 Após a coleta, inicia-se a análise, que envolve:
 - Reconhecimento do problema
 - Modelagem da solução
@@ -48,7 +48,7 @@ Após a coleta, inicia-se a análise, que envolve:
 
 ![requisitos](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/levantamento%20de%20requisitos%202018-07-02.PNG)
 
-### Modelagem
+#### Modelagem
 Nesta fase, compreendemos:
 - Fluxos de informação
 - Controle de processos
@@ -56,7 +56,7 @@ Nesta fase, compreendemos:
 
 ![dados](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/dados%202018-07-02.PNG)
 
-### Documentação de Especificação
+#### Documentação de Especificação
 Ao final, produz-se o **Documento de Especificação de Requisitos de Software (ERS)**, que pode incluir:
 - Especificação funcional (contrato entre cliente e desenvolvedor)
 - Manual preliminar do usuário
@@ -70,7 +70,7 @@ Ao final, produz-se o **Documento de Especificação de Requisitos de Software (
 
 ---
 
-## 2. Projeto (Design)
+#### 2. Projeto (Design)
 
 **Objetivo:** Definir **como** o sistema será construído.
 
@@ -89,7 +89,7 @@ Nesta fase, desenvolve-se a arquitetura do sistema através de:
 
 ---
 
-## 3. Implementação (Codificação)
+#### 3. Implementação (Codificação)
 
 **Objetivo:** Transformar o design em código funcional.
 
@@ -106,13 +106,13 @@ Esta é a fase onde a linguagem de programação é aplicada. **Documentar o có
 
 ---
 
-## 4. Testes
+#### 4. Testes
 
 **Objetivo:** Garantir que o software funciona conforme especificado.
 
 Testes devem começar **cedo** no ciclo de desenvolvimento, revisando especificação, projeto e codificação.
 
-### Estratégias de Teste
+#### Estratégias de Teste
 
 #### **Caixa Preta (Black Box)**
 Foca em **requisitos funcionais** do ponto de vista do usuário. Não examina o código interno.
@@ -135,13 +135,13 @@ Examina a **estrutura interna** do código e seus componentes.
 
 ---
 
-## 5. Manutenção
+#### 5. Manutenção
 
 **Objetivo:** Manter o software funcional e relevante após a entrega.
 
 Todo software precisa de **mudanças contínuas** para não se tornar obsoleto. A manutenção envolve ações preventivas e corretivas.
 
-### Tipos de Manutenção
+#### Tipos de Manutenção
 
 ![tabelaManutencao](https://raw.githubusercontent.com/Tvitor/tvitor.github.io/master/assets/Tabela%202%202018-07-02%2010-48.PNG)
 
@@ -152,7 +152,7 @@ Todo software precisa de **mudanças contínuas** para não se tornar obsoleto. 
 
 ---
 
-## 6. Documentação
+#### 6. Documentação
 
 **Objetivo:** Facilitar manutenção e suporte técnico.
 
@@ -161,7 +161,7 @@ Uma documentação completa, preenchida em **todas as fases**, garante:
 - Atendimento eficaz do suporte
 - Transferência de conhecimento
 
-### Tipos de Documentação
+#### Tipos de Documentação
 
 **Documentação de Usuário**
 - Manuais de uso
@@ -174,7 +174,7 @@ Uma documentação completa, preenchida em **todas as fases**, garante:
 - Processos e regras de negócio
 - Arquitetura do sistema
 
-### Documentação em Metodologias Ágeis
+#### Documentação em Metodologias Ágeis
 
 Na modelagem ágil, **documente apenas o necessário**:
 - A documentação deve ter **mais benefício que custo**
@@ -185,7 +185,7 @@ Na modelagem ágil, **documente apenas o necessário**:
 
 ---
 
-## Conclusão
+#### Conclusão
 
 As etapas do desenvolvimento de software (especificação → projeto → implementação → testes → manutenção → documentação) são **fundamentais** para:
 

@@ -6,7 +6,7 @@ categories: HealthTech DICOM
 description: "Entenda o que é DICOM, como funciona o padrão de imagem médica mais usado no mundo, sua importância em PACS, RIS e HealthTech, e por que todo desenvolvedor da área precisa conhecê-lo."
 ---
 
-## Por Que DICOM é Fundamental em HealthTech?
+#### Por Que DICOM é Fundamental em HealthTech?
 
 Se você já se perguntou **o que é DICOM** e por que ele é o padrão universal em imagens médicas, este artigo explica tudo de forma simples e prática.
 
@@ -18,7 +18,7 @@ Se você trabalha com HealthTech ou sistemas hospitalares, entender DICOM não �
 
 ---
 
-## O Que é DICOM?
+#### O Que é DICOM?
 
 DICOM é muito mais que um formato de arquivo. É um **protocolo completo** que define:
 
@@ -30,16 +30,16 @@ Criado nos anos 1980 e mantido pela NEMA (National Electrical Manufacturers Asso
 
 ---
 
-## DICOM vs. Formatos Comuns: A Diferença Crítica
+#### DICOM vs. Formatos Comuns: A Diferença Crítica
 
-### Formato Tradicional (JPEG, PNG)
+#### Formato Tradicional (JPEG, PNG)
 ```
 imagem.jpg
 └── Pixels da imagem
 ```
 **Problema:** Sem contexto clínico. De qual paciente? Qual exame? Quando foi feito?
 
-### Formato DICOM
+#### Formato DICOM
 ```
 exame.dcm
 ├── Pixels da imagem
@@ -54,7 +54,7 @@ exame.dcm
 
 ---
 
-## Anatomia de um Arquivo DICOM
+#### Anatomia de um Arquivo DICOM
 
 Um arquivo DICOM é composto por duas partes principais:
 
@@ -62,7 +62,7 @@ Um arquivo DICOM é composto por duas partes principais:
 *Figura 1: Estrutura de um arquivo DICOM - Header com metadados + Pixel Data*
 
 
-### 1. Cabeçalho (Header)
+#### 1. Cabeçalho (Header)
 Contém **metadados estruturados** em formato de tags. Cada tag é identificada por um par hexadecimal `(XXXX,XXXX)`.
 
 **Exemplos de tags essenciais:**
@@ -77,16 +77,16 @@ Contém **metadados estruturados** em formato de tags. Cada tag é identificada 
 | `(0028,0010)` | Rows | 512 |
 | `(0028,0011)` | Columns | 512 |
 
-### 2. Dados de Pixel (Pixel Data)
+#### 2. Dados de Pixel (Pixel Data)
 A imagem médica propriamente dita, armazenada em formato binário.
 
 **Diferencial:** Ao contrário de JPEG/PNG, DICOM preserva a **profundidade de bits original** (12-bit, 16-bit), essencial para diagnósticos precisos.
 
 ---
 
-## Componentes do Ecossistema DICOM
+#### Componentes do Ecossistema DICOM
 
-### 1. Modalidades (Acquisition Devices)
+#### 1. Modalidades (Acquisition Devices)
 Equipamentos que **geram** imagens DICOM:
 - **CT** (Tomografia Computadorizada)
 - **MR** (Ressonância Magnética)
@@ -94,13 +94,13 @@ Equipamentos que **geram** imagens DICOM:
 - **US** (Ultrassom)
 - **PET** (Tomografia por Emissão de Pósitrons)
 
-### 2. PACS (Picture Archiving and Communication System)
+#### 2. PACS (Picture Archiving and Communication System)
 Sistema central que:
 - **Armazena** exames em longo prazo
 - **Indexa** por paciente, estudo, modalidade
 - **Distribui** imagens para workstations
 
-### 3. Workstations (Visualizadores)
+#### 3. Workstations (Visualizadores)
 Estações de trabalho onde médicos:
 - **Visualizam** imagens com ferramentas de diagnóstico
 - **Manipulam** janelas, zoom, medições
@@ -110,7 +110,7 @@ Estações de trabalho onde médicos:
 *Figura 3: Interface moderna de visualizador DICOM com ferramentas de diagnóstico*
 
 
-### 4. RIS (Radiology Information System)
+#### 4. RIS (Radiology Information System)
 Gerencia o **workflow** do departamento de radiologia:
 - Agendamento de exames
 - Worklists para modalidades
@@ -118,7 +118,7 @@ Gerencia o **workflow** do departamento de radiologia:
 
 ---
 
-## Serviços DICOM: O Protocolo em Ação
+#### Serviços DICOM: O Protocolo em Ação
 
 DICOM define **serviços padronizados** para comunicação entre sistemas:
 
@@ -126,14 +126,14 @@ DICOM define **serviços padronizados** para comunicação entre sistemas:
 *Figura 2: Fluxo de comunicação DICOM entre modalidades, PACS e workstations*
 
 
-### C-STORE (Armazenamento)
+#### C-STORE (Armazenamento)
 Modalidade **envia** imagens para o PACS após aquisição.
 
 ```
 [Tomógrafo] --C-STORE--> [PACS]
 ```
 
-### C-FIND / C-MOVE (Consulta e Recuperação)
+#### C-FIND / C-MOVE (Consulta e Recuperação)
 Workstation **busca** e **recupera** exames do PACS.
 
 ```
@@ -141,7 +141,7 @@ Workstation **busca** e **recupera** exames do PACS.
 [PACS] --C-MOVE--> [Workstation] (Envia exames encontrados)
 ```
 
-### Modality Worklist (MWL)
+#### Modality Worklist (MWL)
 PACS/RIS **envia** lista de exames agendados para modalidades.
 
 ```
@@ -149,7 +149,7 @@ PACS/RIS **envia** lista de exames agendados para modalidades.
 ```
 **Benefício:** Técnico não precisa digitar dados do paciente manualmente (reduz erros).
 
-### Storage Commitment
+#### Storage Commitment
 PACS **confirma** que armazenou a imagem permanentemente.
 
 ```
@@ -159,26 +159,26 @@ PACS **confirma** que armazenou a imagem permanentemente.
 
 ---
 
-## Por Que DICOM é Crítico em HealthTech?
+#### Por Que DICOM é Crítico em HealthTech?
 
-### 1. **Interoperabilidade**
+#### 1. **Interoperabilidade**
 Equipamentos de **diferentes fabricantes** (Siemens, GE, Philips) comunicam-se perfeitamente.
 
 **Sem DICOM:** Cada vendor teria seu formato proprietário → caos.
 
-### 2. **Rastreabilidade e Segurança**
+#### 2. **Rastreabilidade e Segurança**
 Metadados garantem que:
 - Imagens não se separam do contexto clínico
 - Pacientes são identificados corretamente
 - Exames são auditáveis (compliance regulatório)
 
-### 3. **Workflow Automatizado**
+#### 3. **Workflow Automatizado**
 Integração PACS + RIS + Modalidades elimina:
 - Digitação manual de dados
 - Perda de exames
 - Atrasos no diagnóstico
 
-### 4. **Suporte a IA e Pesquisa**
+#### 4. **Suporte a IA e Pesquisa**
 Metadados estruturados permitem:
 - Treinamento de modelos de Machine Learning
 - Estudos radiômicos em larga escala
@@ -186,9 +186,9 @@ Metadados estruturados permitem:
 
 ---
 
-## Desafios Práticos com DICOM
+#### Desafios Práticos com DICOM
 
-### 1. **Complexidade do Padrão**
+#### 1. **Complexidade do Padrão**
 DICOM tem **milhares de tags** e dezenas de serviços. Implementar corretamente exige expertise.
 
 **Solução:** Use bibliotecas consolidadas:
@@ -197,7 +197,7 @@ DICOM tem **milhares de tags** e dezenas de serviços. Implementar corretamente 
 - **Java:** `dcm4che`
 - **C++:** `DCMTK`
 
-### 2. **Privacidade (LGPD/HIPAA)**
+#### 2. **Privacidade (LGPD/HIPAA)**
 Arquivos DICOM contêm **dados sensíveis** (nome, CPF, data de nascimento).
 
 **Solução:** Anonimização via remoção/substituição de tags específicas:
@@ -210,23 +210,23 @@ ds.PatientID = "000000"
 ds.save_as("exame_anonimizado.dcm")
 ```
 
-### 3. **Tamanho de Arquivos**
+#### 3. **Tamanho de Arquivos**
 Exames de tomografia podem ter **centenas de imagens** (500+ slices).
 
 **Solução:**
 - Compressão JPEG Lossless (mantém qualidade diagnóstica)
 - Armazenamento em nuvem escalável (AWS S3 + Glacier)
 
-### 4. **Integração com Sistemas Legados**
+#### 4. **Integração com Sistemas Legados**
 Hospitais têm equipamentos antigos que não suportam DICOM moderno.
 
 **Solução:** Gateways/bridges que convertem protocolos proprietários para DICOM.
 
 ---
 
-## DICOM na Prática: Caso de Uso Real
+#### DICOM na Prática: Caso de Uso Real
 
-### Cenário: Exame de Tomografia de Tórax
+#### Cenário: Exame de Tomografia de Tórax
 
 **1. Agendamento (RIS)**
 ```
@@ -255,9 +255,9 @@ Laudo é anexado ao prontuário eletrônico (EHR) via HL7/FHIR.
 
 ---
 
-## Tendências Futuras: DICOM e Cloud
+#### Tendências Futuras: DICOM e Cloud
 
-### DICOMweb
+#### DICOMweb
 Evolução do DICOM para **APIs RESTful** sobre HTTP:
 - `WADO-RS` (Web Access to DICOM Objects)
 - `STOW-RS` (Store Over the Web)
@@ -265,7 +265,7 @@ Evolução do DICOM para **APIs RESTful** sobre HTTP:
 
 **Vantagem:** Integração nativa com aplicações web modernas.
 
-### DICOM + IA
+#### DICOM + IA
 Modelos de deep learning consomem DICOM diretamente:
 ```python
 import pydicom
@@ -279,7 +279,7 @@ pixels = ds.pixel_array
 prediction = model.predict(pixels)
 ```
 
-### Cloud PACS
+#### Cloud PACS
 Migração de PACS on-premise para cloud (AWS, Azure, GCP):
 - **Escalabilidade** ilimitada
 - **Disaster recovery** automático
@@ -287,7 +287,7 @@ Migração de PACS on-premise para cloud (AWS, Azure, GCP):
 
 ---
 
-## Conclusão
+#### Conclusão
 
 DICOM não é apenas um formato de arquivo — é a **espinha dorsal** da radiologia digital moderna. Dominar DICOM significa:
 
